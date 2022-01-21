@@ -1,0 +1,61 @@
+(ERROR) VideoModeManager::AddVideoMode:333: VideoMode 'Nexus 7B Visible' already exists
+Setting native video mode to 784, 531 - Fullscreen: 0 Aspect Ratio: 0.00
+Invalid shader file shaders/windows/dx9/ColoredTexture.fs.bin
+
+Invalid shader file shaders/windows/dx9/VertexColoredTexture.fs.bin
+
+Invalid shader file shaders/windows/dx9/NormalTexture.fs.bin
+
+Invalid shader file shaders/windows/dx9/ColoredTextureAnzu.fs.bin
+
+Save path is C:\Users\Nawastore\AppData\Local\Growtopia\
+FMOD error! (18) File not found.
+
+Initting windows gamepad provider
+Gamepad provider DirectX initialized.
+Current locale is en_us, screen size is 784.00, 531.00
+ERROR: Could not find interface/currencies.json
+Initialized netobject manager
+TextManager initialized.
+Couldn't load surface C:\Users\Nawastore\AppData\Local\Growtopia\interface/tutorial/tut_arrow.rttex
+ResourceManager::GetSurfaceResource: Unable to load C:\Users\Nawastore\AppData\Local\Growtopia\interface/tutorial/tut_arrow.rttex
+Couldn't load surface game/sun.rttex
+Couldn't load surface game/hills3.rttex
+Couldn't load surface game/hills2.rttex
+Couldn't load surface game/hills1.rttex
+Couldn't load surface C:\Users\Nawastore\AppData\Local\Growtopia\game/cloud.rttex
+Couldn't load surface game/gui_box_upwhite.rttex
+ResourceManager::GetSurfaceResource: Unable to load game/gui_box_upwhite.rttex
+Couldn't load surface game/gui_box_upwhite.rttex
+ResourceManager::GetSurfaceResource: Unable to load game/gui_box_upwhite.rttex
+Couldn't load surface game/gui_box_upwhite.rttex
+ResourceManager::GetSurfaceResource: Unable to load game/gui_box_upwhite.rttex
+Couldn't load surface game/gui_box_upwhite.rttex
+ResourceManager::GetSurfaceResource: Unable to load game/gui_box_upwhite.rttex
+Couldn't load surface interface/large/game_title.rttex
+ResourceManager::GetSurfaceResource: Unable to load interface/large/game_title.rttex
+Warning: Not going to save variant screenY because it was never actually set a value
+Warning: Not going to save variant screenX because it was never actually set a value
+Warning: Not going to save variant screenY because it was never actually set a value
+Warning: Not going to save variant screenX because it was never actually set a value
+FMOD error! (18) File not found.
+
+FMOD error! (31) An invalid parameter was passed to this function.
+
+FMOD error! (18) File not found.
+
+FMOD error! (31) An invalid parameter was passed to this function.
+
+FMOD error! (31) An invalid parameter was passed to this function.
+
+FMOD error! (31) An invalid parameter was passed to this function.
+
+FMOD error! (31) An invalid parameter was passed to this function.
+
+App shutting down from getting the X clicked
+Warning: Not going to save variant screenY because it was never actually set a value
+Warning: Not going to save variant screenX because it was never actually set a value
+Warning: Not going to save variant screenY because it was never actually set a value
+Warning: Not going to save variant screenX because it was never actually set a value
+KillCommunityHubMenu() dialog not active
+Killing sound cache
