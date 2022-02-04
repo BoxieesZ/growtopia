@@ -1,426 +1,848 @@
 Caught signal 22 (SIGABRT)
 Stack trace of crash:
-SymInit: Symbol-SearchPath: '.;C:\Users\Nawastore\AppData\Local\Growtopia;C:\Users\Nawastore\AppData\Local\Growtopia;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'Nawastore'
+SymInit: Symbol-SearchPath: '.;C:\Users\bxbmarket\AppData\Local\Growtopia;C:\Users\bxbmarket\AppData\Local\Growtopia;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'bxbmarket'
 OS-Version: 6.2.9200 () 0x190-0x3
-C:\Users\Nawastore\AppData\Local\Growtopia\Growtopia.exe:Growtopia.exe (00007FF613880000), size: 13344768 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Nawastore\AppData\Local\Growtopia\Growtopia.exe'
-C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFCAFF60000), size: 2019328 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFCAFE70000), size: 737280 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNEL32.DLL', fileVersion: 6.2.17763.2452
-C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFCAC080000), size: 2703360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNELBASE.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFCAF210000), size: 446464 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WS2_32.dll', fileVersion: 6.2.17763.2028
-C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFCAD3C0000), size: 1167360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\RPCRT4.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\USER32.dll:USER32.dll (00007FFCAE9E0000), size: 1667072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\USER32.dll', fileVersion: 6.2.17763.2213
-C:\Windows\System32\win32u.dll:win32u.dll (00007FFCAC060000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\win32u.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFCAFA60000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\GDI32.dll', fileVersion: 6.2.17763.1697
-C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFCAC420000), size: 1687552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\gdi32full.dll', fileVersion: 6.2.17763.2452
-C:\Windows\SYSTEM32\DINPUT8.dll:DINPUT8.dll (00007FFCA2610000), size: 278528 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DINPUT8.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFCAD0C0000), size: 655360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcp_win.dll', fileVersion: 6.2.17763.348
-C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFCAF640000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcrt.dll', fileVersion: 7.0.17763.475
-C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFCAC320000), size: 1024000 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ucrtbase.dll', fileVersion: 6.2.17763.1490
-C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFCAF030000), size: 684032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ADVAPI32.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFCAD4E0000), size: 21991424 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SHELL32.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\sechost.dll:sechost.dll (00007FFCAF4B0000), size: 651264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\sechost.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFCAD050000), size: 303104 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\cfgmgr32.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\shcore.dll:shcore.dll (00007FFCAF3E0000), size: 688128 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\shcore.dll', fileVersion: 6.2.17763.2330
-C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFC9DBB0000), size: 147456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\combase.dll:combase.dll (00007FFCAFA90000), size: 3330048 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\combase.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFCAC7C0000), size: 532480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\bcryptPrimitives.dll', fileVersion: 6.2.17763.2366
-C:\Users\Nawastore\AppData\Local\Growtopia\fmod64.dll:fmod64.dll (00007FFC8B6E0000), size: 2043904 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Nawastore\AppData\Local\Growtopia\fmod64.dll', fileVersion: 0.1.10.6
-C:\Windows\System32\windows.storage.dll:windows.storage.dll (00007FFCAC900000), size: 7647232 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\windows.storage.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\profapi.dll:profapi.dll (00007FFCABF50000), size: 147456 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\profapi.dll', fileVersion: 6.2.17763.1075
-C:\Windows\System32\powrprof.dll:powrprof.dll (00007FFCABF80000), size: 380928 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\powrprof.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\shlwapi.dll:shlwapi.dll (00007FFCAD360000), size: 335872 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\shlwapi.dll', fileVersion: 6.2.17763.1697
-C:\Windows\System32\kernel.appcore.dll:kernel.appcore.dll (00007FFCABFE0000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\kernel.appcore.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\ole32.dll:ole32.dll (00007FFCAF280000), size: 1400832 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ole32.dll', fileVersion: 6.2.17763.2145
-C:\Windows\System32\cryptsp.dll:cryptsp.dll (00007FFCAD0A0000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\cryptsp.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFCAF560000), size: 802816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\OLEAUT32.dll', fileVersion: 6.2.17763.1935
-C:\Windows\SYSTEM32\winmmbase.dll:winmmbase.dll (00007FFC9DB80000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\winmmbase.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FFCA3190000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSACM32.dll', fileVersion: 6.2.17763.1
-C:\Users\Nawastore\AppData\Local\Growtopia\SecureEngineSDK64.dll:SecureEngineSDK64.dll (0000000010000000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Nawastore\AppData\Local\Growtopia\SecureEngineSDK64.dll'
-C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFCAB430000), size: 249856 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 6.2.17763.2213
-C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFCA67F0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\VCOMP140.DLL:VCOMP140.DLL (00007FFCA27C0000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCOMP140.DLL', fileVersion: 14.30.30708.0
-C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFC94E40000), size: 1208320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\urlmon.dll:urlmon.dll (00007FFCA5BB0000), size: 1925120 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\urlmon.dll', fileVersion: 11.0.17763.2183
-C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFCA2550000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\iertutil.dll:iertutil.dll (00007FFCA58D0000), size: 2789376 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\iertutil.dll', fileVersion: 11.0.17763.2213
-C:\Windows\SYSTEM32\srvcli.dll:srvcli.dll (00007FFCA5B80000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\srvcli.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\netutils.dll:netutils.dll (00007FFCAB590000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\netutils.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FFCAB8F0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTBASE.DLL', fileVersion: 6.2.17763.1
-C:\Windows\System32\IMM32.DLL:IMM32.DLL (00007FFCAEB80000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\IMM32.DLL', fileVersion: 6.2.17763.719
-C:\Windows\SYSTEM32\inputhost.dll:inputhost.dll (00007FFCA3EA0000), size: 839680 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\inputhost.dll'
-C:\Windows\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FFCA9FC0000), size: 921600 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CoreMessaging.dll', fileVersion: 6.2.17763.1821
-C:\Windows\SYSTEM32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFCA7690000), size: 2146304 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\twinapi.appcore.dll', fileVersion: 6.2.17763.1697
-C:\Windows\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFCA8940000), size: 3284992 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CoreUIComponents.dll', fileVersion: 6.2.17763.1554
-C:\Windows\SYSTEM32\d2d1.dll:d2d1.dll (00007FFCA94D0000), size: 6021120 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d2d1.dll', fileVersion: 6.2.17763.1075
-C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFCA9250000), size: 2613248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d11.dll', fileVersion: 6.2.17763.1697
-C:\Windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFCA7FE0000), size: 1740800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\PROPSYS.dll', fileVersion: 7.0.17763.1697
-C:\Windows\SYSTEM32\wintypes.dll:wintypes.dll (00007FFCA87E0000), size: 1380352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wintypes.dll', fileVersion: 6.2.17763.2452
-C:\Windows\SYSTEM32\RMCLIENT.dll:RMCLIENT.dll (00007FFCA91D0000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\RMCLIENT.dll', fileVersion: 6.2.17763.1697
-C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFCAAF50000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntmarta.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFCAACD0000), size: 794624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dxgi.dll', fileVersion: 6.2.17763.1697
-C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFCAA830000), size: 638976 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.2.17763.2213
-C:\Windows\System32\MSCTF.dll:MSCTF.dll (00007FFCAD190000), size: 1486848 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MSCTF.dll', fileVersion: 6.2.17763.1728
-C:\Windows\system32\dwmapi.dll:dwmapi.dll (00007FFCAA910000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dwmapi.dll', fileVersion: 6.2.17763.1697
-C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFCAC5C0000), size: 2052096 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CRYPT32.dll', fileVersion: 6.2.17763.2268
-C:\Windows\System32\MSASN1.dll:MSASN1.dll (00007FFCABF30000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MSASN1.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\d3d9.dll:d3d9.dll (00007FFC8B540000), size: 1695744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d9.dll', fileVersion: 6.2.17763.1075
-C:\Windows\SYSTEM32\d3d10warp.dll:d3d10warp.dll (00007FFCA78A0000), size: 7581696 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d10warp.dll', fileVersion: 6.2.17763.1432
-C:\Windows\System32\TextInputFramework.dll:TextInputFramework.dll (00007FFCA90E0000), size: 602112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\TextInputFramework.dll', fileVersion: 6.2.17763.2330
-C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFCAFDC0000), size: 663552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
-C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFC94BF0000), size: 458752 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.2.17763.1697
-C:\Windows\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFCABCD0000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DEVOBJ.dll', fileVersion: 6.2.17763.2145
-C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFCAAB70000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 6.2.17763.1
-C:\Windows\System32\SETUPAPI.DLL:SETUPAPI.DLL (00007FFCAEBB0000), size: 4677632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SETUPAPI.DLL', fileVersion: 6.2.17763.404
-C:\Windows\System32\bcrypt.dll:bcrypt.dll (00007FFCAD160000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\bcrypt.dll', fileVersion: 6.2.17763.2090
-C:\Windows\System32\WINTRUST.dll:WINTRUST.dll (00007FFCAC000000), size: 364544 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WINTRUST.dll', fileVersion: 6.2.17763.2452
-C:\Windows\SYSTEM32\WINSTA.dll:WINSTA.dll (00007FFCABDD0000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINSTA.dll', fileVersion: 6.2.17763.771
-C:\Users\Nawastore\Desktop\252.dll:252.dll (0000000180000000), size: 2441216 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Users\Nawastore\Desktop\252.dll', fileVersion: 1.3.3.0
-C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFC9BEF0000), size: 581632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSVCP140.dll', fileVersion: 14.30.30708.0
-C:\Windows\SYSTEM32\WININET.dll:WININET.dll (00007FFC99E80000), size: 5115904 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WININET.dll', fileVersion: 11.0.17763.2145
-C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFCA0580000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.30.30708.0
-C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFCA3B50000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.30.30708.0
-C:\Windows\SYSTEM32\xinput1_4.dll:xinput1_4.dll (00007FFCA0510000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\xinput1_4.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFCA8410000), size: 2019328 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 6.2.17763.1999
-C:\Windows\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FFCABE30000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SspiCli.dll', fileVersion: 6.2.17763.1490
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF613AF4E15)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613AF4E15)
-00007FF613AF4E15 (Growtopia): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF613AF34CA)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613AF34CA)
-00007FF613AF34CA (Growtopia): (filename not available): (function-name not available)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF61401B9E6)
-00007FF61401B9E6 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF614013A58)
-00007FF614013A58 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF614009322)
-00007FF614009322 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613FDFC83)
-00007FF613FDFC83 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAC107A9C)
-00007FFCAC107A9C (KERNELBASE): (filename not available): UnhandledExceptionFilter
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCB0008440)
-00007FFCB0008440 (ntdll): (filename not available): memset
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFFEFDD6)
-00007FFCAFFEFDD6 (ntdll): (filename not available): _C_specific_handler
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCB0004A2F)
-00007FFCB0004A2F (ntdll): (filename not available): _chkstk
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFF64CEF)
-00007FFCAFF64CEF (ntdll): (filename not available): RtlWalkFrameChain
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFF68AE6)
-00007FFCAFF68AE6 (ntdll): (filename not available): RtlRaiseException
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAC0B9319)
-00007FFCAC0B9319 (KERNELBASE): (filename not available): RaiseException
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCA05864C0)
-00007FFCA05864C0 (VCRUNTIME140): (filename not available): CxxThrowException
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00000001800015CF)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00000001800015CF)
-00000001800015CF (252): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00000001800D2DF3)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00000001800D2DF3)
-00000001800D2DF3 (252): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 000000018001DF27)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000000018001DF27)
-000000018001DF27 (252): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 000000018001F283)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000000018001F283)
-000000018001F283 (252): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00000001800CF9D7)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00000001800CF9D7)
-00000001800CF9D7 (252): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 0000000180021D44)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 0000000180021D44)
-0000000180021D44 (252): (filename not available): (function-name not available)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613F7FE3C)
-00007FF613F7FE3C (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613F71FE3)
-00007FF613F71FE3 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613F720B5)
-00007FF613F720B5 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFE87974)
-00007FFCAFE87974 (KERNEL32): (filename not available): BaseThreadInitThunk
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFFBA2F1)
-00007FFCAFFBA2F1 (ntdll): (filename not available): RtlUserThreadStart
+C:\Users\bxbmarket\AppData\Local\Growtopia\Growtopia.exe:Growtopia.exe (00007FF7083F0000), size: 13058048 (result: 0), SymType: '-exported-', PDB: 'C:\Users\bxbmarket\AppData\Local\Growtopia\Growtopia.exe'
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFF9A780000), size: 1757184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 6.3.9600.20090
+C:\Windows\system32\KERNEL32.DLL:KERNEL32.DLL (00007FFF9A600000), size: 1306624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\KERNEL32.DLL', fileVersion: 6.3.9600.20062
+C:\Windows\system32\KERNELBASE.dll:KERNELBASE.dll (00007FFF97CE0000), size: 1134592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\KERNELBASE.dll', fileVersion: 6.3.9600.20040
+C:\Windows\system32\WS2_32.dll:WS2_32.dll (00007FFF98AD0000), size: 368640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WS2_32.dll', fileVersion: 6.3.9600.18340
+C:\Windows\SYSTEM32\DINPUT8.dll:DINPUT8.dll (00007FFF85540000), size: 270336 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DINPUT8.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFF8F2C0000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 6.3.9600.17415
+C:\Users\bxbmarket\AppData\Local\Growtopia\fmod64.dll:fmod64.dll (00007FFF848F0000), size: 2043904 (result: 0), SymType: '-exported-', PDB: 'C:\Users\bxbmarket\AppData\Local\Growtopia\fmod64.dll', fileVersion: 0.1.10.6
+C:\Windows\system32\USER32.dll:USER32.dll (00007FFF98080000), size: 1536000 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\USER32.dll', fileVersion: 6.3.9600.20046
+C:\Windows\system32\GDI32.dll:GDI32.dll (00007FFF98420000), size: 1368064 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\GDI32.dll', fileVersion: 6.3.9600.20094
+C:\Windows\system32\ADVAPI32.dll:ADVAPI32.dll (00007FFF9A300000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ADVAPI32.dll', fileVersion: 6.3.9600.20035
+C:\Windows\system32\SHELL32.dll:SHELL32.dll (00007FFF98DB0000), size: 22208512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SHELL32.dll', fileVersion: 6.3.9600.19823
+C:\Windows\system32\ole32.dll:ole32.dll (00007FFF9A460000), size: 1658880 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ole32.dll', fileVersion: 6.3.9600.20040
+C:\Windows\system32\OLEAUT32.dll:OLEAUT32.dll (00007FFF98A00000), size: 811008 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\OLEAUT32.dll', fileVersion: 6.3.9600.20016
+C:\Users\bxbmarket\AppData\Local\Growtopia\SecureEngineSDK64.dll:SecureEngineSDK64.dll (0000000010000000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Users\bxbmarket\AppData\Local\Growtopia\SecureEngineSDK64.dll'
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFF93F40000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 6.3.9600.18264
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFF934B0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\VCOMP140.DLL:VCOMP140.DLL (00007FFF8D8A0000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCOMP140.DLL', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFF847C0000), size: 1224704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\urlmon.dll:urlmon.dll (00007FFF83E80000), size: 1609728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\urlmon.dll', fileVersion: 11.0.9600.20091
+C:\Windows\system32\NSI.dll:NSI.dll (00007FFF9A2E0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\NSI.dll', fileVersion: 6.3.9600.17415
+C:\Windows\system32\RPCRT4.dll:RPCRT4.dll (00007FFF98C70000), size: 1286144 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\RPCRT4.dll', fileVersion: 6.3.9600.19994
+C:\Windows\system32\msvcrt.dll:msvcrt.dll (00007FFF9A3B0000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\msvcrt.dll', fileVersion: 7.0.9600.17415
+C:\Windows\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (00007FFF8F290000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMMBASE.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FFF8F8F0000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSACM32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\sechost.dll:sechost.dll (00007FFF98940000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\sechost.dll', fileVersion: 6.3.9600.19749
+C:\Windows\SYSTEM32\combase.dll:combase.dll (00007FFF98200000), size: 2166784 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\combase.dll', fileVersion: 6.3.9600.20090
+C:\Windows\system32\SHLWAPI.dll:SHLWAPI.dll (00007FFF989A0000), size: 344064 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SHLWAPI.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FFF93ED0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINNSI.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFF8F2F0000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\DDRAW.dll:DDRAW.dll (00007FFF80E40000), size: 1015808 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DDRAW.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\NETAPI32.dll:NETAPI32.dll (00007FFF94010000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\NETAPI32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\iertutil.dll:iertutil.dll (00007FFF92ED0000), size: 2936832 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\iertutil.dll', fileVersion: 11.0.9600.20064
+C:\Windows\SYSTEM32\WININET.dll:WININET.dll (00007FFF84010000), size: 4898816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WININET.dll', fileVersion: 11.0.9600.20091
+C:\Windows\system32\SspiCli.dll:SspiCli.dll (00007FFF97CB0000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SspiCli.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (00007FFF97970000), size: 323584 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\cfgmgr32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\DEVOBJ.dll:DEVOBJ.dll (00007FFF96730000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DEVOBJ.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\DCIMAN32.dll:DCIMAN32.dll (00007FFF937F0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DCIMAN32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\netutils.dll:netutils.dll (00007FFF93FA0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\netutils.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\srvcli.dll:srvcli.dll (00007FFF974B0000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\srvcli.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\wkscli.dll:wkscli.dll (00007FFF93E40000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wkscli.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (00007FFF96E70000), size: 135168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\USERENV.dll', fileVersion: 6.3.9600.19846
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FFF97850000), size: 86016 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\profapi.dll', fileVersion: 6.3.9600.17415
+C:\Windows\system32\IMM32.DLL:IMM32.DLL (00007FFF9A740000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\IMM32.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\system32\MSCTF.dll:MSCTF.dll (00007FFF98750000), size: 1380352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSCTF.dll', fileVersion: 6.3.9600.19724
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFF965B0000), size: 1216512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.3.9600.19597
+C:\Windows\SYSTEM32\SHCORE.dll:SHCORE.dll (00007FFF96160000), size: 729088 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SHCORE.dll', fileVersion: 6.3.9600.19750
+C:\Windows\system32\dwmapi.dll:dwmapi.dll (00007FFF95F60000), size: 135168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dwmapi.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\d3d9.dll:d3d9.dll (00007FFF8F940000), size: 2232320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d9.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\d3d10warp.dll:d3d10warp.dll (00007FFF94A70000), size: 2486272 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d10warp.dll', fileVersion: 6.3.9600.19176
+C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFF965A0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\kernel.appcore.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FFF97710000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTBASE.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFF976A0000), size: 405504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\bcryptPrimitives.dll', fileVersion: 6.3.9600.18895
+C:\Windows\SYSTEM32\clbcatq.dll:clbcatq.dll (00007FFF97FC0000), size: 745472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\clbcatq.dll', fileVersion: 2001.12.10530.17415
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFF95330000), size: 458752 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFF96AF0000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\system32\SETUPAPI.DLL:SETUPAPI.DLL (00007FFF98570000), size: 1941504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SETUPAPI.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\system32\WINTRUST.dll:WINTRUST.dll (00007FFF97A70000), size: 331776 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINTRUST.dll', fileVersion: 6.3.9600.20059
+C:\Windows\system32\CRYPT32.dll:CRYPT32.dll (00007FFF97AD0000), size: 1957888 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CRYPT32.dll', fileVersion: 6.3.9600.19913
+C:\Windows\system32\MSASN1.dll:MSASN1.dll (00007FFF97950000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSASN1.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\WINSTA.dll:WINSTA.dll (00007FFF977C0000), size: 368640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINSTA.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFF93700000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntmarta.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFF84730000), size: 577536 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSVCP140.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFF90490000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFF85470000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll:api-ms-win-crt-heap-l1-1-0.dll (00007FFF8F8E0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll:api-ms-win-crt-runtime-l1-1-0.dll (00007FFF8F120000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll:api-ms-win-crt-string-l1-1-0.dll (00007FFF8EDE0000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll:api-ms-win-crt-stdio-l1-1-0.dll (00007FFF8EA40000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll:api-ms-win-crt-convert-l1-1-0.dll (00007FFF8E660000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll:api-ms-win-crt-filesystem-l1-1-0.dll (00007FFF8D960000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll:api-ms-win-crt-environment-l1-1-0.dll (00007FFF8D510000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll:api-ms-win-crt-math-l1-1-0.dll (00007FFF8D040000), size: 20480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll:api-ms-win-crt-time-l1-1-0.dll (00007FFF85460000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll:api-ms-win-crt-utility-l1-1-0.dll (00007FFF85450000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll:api-ms-win-crt-locale-l1-1-0.dll (00007FFF85440000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\ucrtbase.DLL:ucrtbase.DLL (00007FFF7C890000), size: 999424 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ucrtbase.DLL', fileVersion: 10.0.14393.2990
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFF83880000), size: 1609728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 6.3.9600.17787
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF7086508B5)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF7086508B5)
+00007FF7086508B5 (Growtopia): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF70864EF6A)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF70864EF6A)
+00007FF70864EF6A (Growtopia): (filename not available): (function-name not available)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF708B60DB6)
+00007FF708B60DB6 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF708B5C310)
+00007FF708B5C310 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF708B4E4F2)
+00007FF708B4E4F2 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF708B24EC3)
+00007FF708B24EC3 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF97DC1932)
+00007FFF97DC1932 (KERNELBASE): (filename not available): UnhandledExceptionFilter
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A81EC73)
+00007FFF9A81EC73 (ntdll): (filename not available): memset
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A8018D6)
+00007FFF9A8018D6 (ntdll): (filename not available): _C_specific_handler
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A812F5D)
+00007FFF9A812F5D (ntdll): (filename not available): _chkstk
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A7D4547)
+00007FFF9A7D4547 (ntdll): (filename not available): RtlRaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A7D376D)
+00007FFF9A7D376D (ntdll): (filename not available): RtlRaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF97CE7AFC)
+00007FFF97CE7AFC (KERNELBASE): (filename not available): RaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF85476480)
+00007FFF85476480 (VCRUNTIME140): (filename not available): CxxThrowException
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800015CF)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800015CF)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800015CF)
+00000001800015CF ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 000000000000003A)
+000000000000003A ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800202C2)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800202C2)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800202C2)
+00000001800202C2 ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: FFFFFFFFFFFFFFFF)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: FFFFFFFFFFFFFFFF)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: FFFFFFFFFFFFFFFF)
+FFFFFFFFFFFFFFFF ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 000000000000003A)
+000000000000003A ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800D7EB0)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800D7EB0)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800D7EB0)
+00000001800D7EB0 ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800D7ED8)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800D7ED8)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800D7ED8)
+00000001800D7ED8 ((module-name not available)): (filename not available): (function-name not available)
 Caught signal 22 (SIGABRT)
 Stack trace of crash:
-SymInit: Symbol-SearchPath: '.;C:\Users\Nawastore\AppData\Local\Growtopia;C:\Users\Nawastore\AppData\Local\Growtopia;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'Nawastore'
+SymInit: Symbol-SearchPath: '.;C:\Users\bxbmarket\AppData\Local\Growtopia;C:\Users\bxbmarket\AppData\Local\Growtopia;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'bxbmarket'
 OS-Version: 6.2.9200 () 0x190-0x3
-C:\Users\Nawastore\AppData\Local\Growtopia\Growtopia.exe:Growtopia.exe (00007FF613880000), size: 13344768 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Nawastore\AppData\Local\Growtopia\Growtopia.exe'
-C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFCAFF60000), size: 2019328 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFCAFE70000), size: 737280 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNEL32.DLL', fileVersion: 6.2.17763.2452
-C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFCAC080000), size: 2703360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNELBASE.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFCAF210000), size: 446464 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WS2_32.dll', fileVersion: 6.2.17763.2028
-C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFCAD3C0000), size: 1167360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\RPCRT4.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\USER32.dll:USER32.dll (00007FFCAE9E0000), size: 1667072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\USER32.dll', fileVersion: 6.2.17763.2213
-C:\Windows\System32\win32u.dll:win32u.dll (00007FFCAC060000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\win32u.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFCAFA60000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\GDI32.dll', fileVersion: 6.2.17763.1697
-C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFCAC420000), size: 1687552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\gdi32full.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFCAD0C0000), size: 655360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcp_win.dll', fileVersion: 6.2.17763.348
-C:\Windows\SYSTEM32\DINPUT8.dll:DINPUT8.dll (00007FFCA2610000), size: 278528 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DINPUT8.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFCAC320000), size: 1024000 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ucrtbase.dll', fileVersion: 6.2.17763.1490
-C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFCAF640000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcrt.dll', fileVersion: 7.0.17763.475
-C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFCAF030000), size: 684032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ADVAPI32.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\sechost.dll:sechost.dll (00007FFCAF4B0000), size: 651264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\sechost.dll', fileVersion: 6.2.17763.2452
-C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFC9DBB0000), size: 147456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFCAD4E0000), size: 21991424 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SHELL32.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFCAD050000), size: 303104 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\cfgmgr32.dll', fileVersion: 6.2.17763.1
-C:\Users\Nawastore\AppData\Local\Growtopia\fmod64.dll:fmod64.dll (00007FFC8B6E0000), size: 2043904 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Nawastore\AppData\Local\Growtopia\fmod64.dll', fileVersion: 0.1.10.6
-C:\Windows\System32\shcore.dll:shcore.dll (00007FFCAF3E0000), size: 688128 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\shcore.dll', fileVersion: 6.2.17763.2330
-C:\Windows\System32\combase.dll:combase.dll (00007FFCAFA90000), size: 3330048 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\combase.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFCAC7C0000), size: 532480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\bcryptPrimitives.dll', fileVersion: 6.2.17763.2366
-C:\Windows\System32\windows.storage.dll:windows.storage.dll (00007FFCAC900000), size: 7647232 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\windows.storage.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\ole32.dll:ole32.dll (00007FFCAF280000), size: 1400832 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ole32.dll', fileVersion: 6.2.17763.2145
-C:\Windows\System32\profapi.dll:profapi.dll (00007FFCABF50000), size: 147456 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\profapi.dll', fileVersion: 6.2.17763.1075
-C:\Windows\System32\powrprof.dll:powrprof.dll (00007FFCABF80000), size: 380928 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\powrprof.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\shlwapi.dll:shlwapi.dll (00007FFCAD360000), size: 335872 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\shlwapi.dll', fileVersion: 6.2.17763.1697
-C:\Windows\System32\kernel.appcore.dll:kernel.appcore.dll (00007FFCABFE0000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\kernel.appcore.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\cryptsp.dll:cryptsp.dll (00007FFCAD0A0000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\cryptsp.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFCAF560000), size: 802816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\OLEAUT32.dll', fileVersion: 6.2.17763.1935
-C:\Windows\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (00007FFC9DB80000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMMBASE.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FFCA3190000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSACM32.dll', fileVersion: 6.2.17763.1
-C:\Users\Nawastore\AppData\Local\Growtopia\SecureEngineSDK64.dll:SecureEngineSDK64.dll (0000000010000000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Nawastore\AppData\Local\Growtopia\SecureEngineSDK64.dll'
-C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFCAB430000), size: 249856 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 6.2.17763.2213
-C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFCA67F0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\VCOMP140.DLL:VCOMP140.DLL (00007FFCA27C0000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCOMP140.DLL', fileVersion: 14.30.30708.0
-C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFC94E40000), size: 1208320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\urlmon.dll:urlmon.dll (00007FFCA5BB0000), size: 1925120 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\urlmon.dll', fileVersion: 11.0.17763.2183
-C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFCA2550000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\iertutil.dll:iertutil.dll (00007FFCA58D0000), size: 2789376 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\iertutil.dll', fileVersion: 11.0.17763.2213
-C:\Windows\SYSTEM32\srvcli.dll:srvcli.dll (00007FFCA5B80000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\srvcli.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\netutils.dll:netutils.dll (00007FFCAB590000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\netutils.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FFCAB8F0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTBASE.DLL', fileVersion: 6.2.17763.1
-C:\Windows\System32\IMM32.DLL:IMM32.DLL (00007FFCAEB80000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\IMM32.DLL', fileVersion: 6.2.17763.719
-C:\Windows\SYSTEM32\inputhost.dll:inputhost.dll (00007FFCA3EA0000), size: 839680 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\inputhost.dll'
-C:\Windows\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FFCA9FC0000), size: 921600 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CoreMessaging.dll', fileVersion: 6.2.17763.1821
-C:\Windows\SYSTEM32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFCA7690000), size: 2146304 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\twinapi.appcore.dll', fileVersion: 6.2.17763.1697
-C:\Windows\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFCA8940000), size: 3284992 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CoreUIComponents.dll', fileVersion: 6.2.17763.1554
-C:\Windows\SYSTEM32\d2d1.dll:d2d1.dll (00007FFCA94D0000), size: 6021120 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d2d1.dll', fileVersion: 6.2.17763.1075
-C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFCA9250000), size: 2613248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d11.dll', fileVersion: 6.2.17763.1697
-C:\Windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFCA7FE0000), size: 1740800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\PROPSYS.dll', fileVersion: 7.0.17763.1697
-C:\Windows\SYSTEM32\wintypes.dll:wintypes.dll (00007FFCA87E0000), size: 1380352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wintypes.dll', fileVersion: 6.2.17763.2452
-C:\Windows\SYSTEM32\RMCLIENT.dll:RMCLIENT.dll (00007FFCA91D0000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\RMCLIENT.dll', fileVersion: 6.2.17763.1697
-C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFCAAF50000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntmarta.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFCAACD0000), size: 794624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dxgi.dll', fileVersion: 6.2.17763.1697
-C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFCAA830000), size: 638976 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.2.17763.2213
-C:\Windows\System32\MSCTF.dll:MSCTF.dll (00007FFCAD190000), size: 1486848 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MSCTF.dll', fileVersion: 6.2.17763.1728
-C:\Windows\system32\dwmapi.dll:dwmapi.dll (00007FFCAA910000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dwmapi.dll', fileVersion: 6.2.17763.1697
-C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFCAC5C0000), size: 2052096 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CRYPT32.dll', fileVersion: 6.2.17763.2268
-C:\Windows\System32\MSASN1.dll:MSASN1.dll (00007FFCABF30000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MSASN1.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\d3d9.dll:d3d9.dll (00007FFC8B540000), size: 1695744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d9.dll', fileVersion: 6.2.17763.1075
-C:\Windows\SYSTEM32\d3d10warp.dll:d3d10warp.dll (00007FFCA78A0000), size: 7581696 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d10warp.dll', fileVersion: 6.2.17763.1432
-C:\Windows\System32\TextInputFramework.dll:TextInputFramework.dll (00007FFCA90E0000), size: 602112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\TextInputFramework.dll', fileVersion: 6.2.17763.2330
-C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFCAFDC0000), size: 663552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
-C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFC94BF0000), size: 458752 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.2.17763.1697
-C:\Windows\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFCABCD0000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DEVOBJ.dll', fileVersion: 6.2.17763.2145
-C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFCAAB70000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 6.2.17763.1
-C:\Windows\System32\SETUPAPI.DLL:SETUPAPI.DLL (00007FFCAEBB0000), size: 4677632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SETUPAPI.DLL', fileVersion: 6.2.17763.404
-C:\Windows\System32\bcrypt.dll:bcrypt.dll (00007FFCAD160000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\bcrypt.dll', fileVersion: 6.2.17763.2090
-C:\Windows\System32\WINTRUST.dll:WINTRUST.dll (00007FFCAC000000), size: 364544 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WINTRUST.dll', fileVersion: 6.2.17763.2452
-C:\Windows\SYSTEM32\WINSTA.dll:WINSTA.dll (00007FFCABDD0000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINSTA.dll', fileVersion: 6.2.17763.771
-C:\Users\Nawastore\Desktop\252.dll:252.dll (0000000180000000), size: 2441216 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Users\Nawastore\Desktop\252.dll', fileVersion: 1.3.3.0
-C:\Windows\SYSTEM32\WININET.dll:WININET.dll (00007FFC99E80000), size: 5115904 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WININET.dll', fileVersion: 11.0.17763.2145
-C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFC9BEF0000), size: 581632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSVCP140.dll', fileVersion: 14.30.30708.0
-C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFCA3B50000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.30.30708.0
-C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFCA24F0000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.30.30708.0
-C:\Windows\SYSTEM32\xinput1_4.dll:xinput1_4.dll (00007FFCA0580000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\xinput1_4.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFCA8410000), size: 2019328 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 6.2.17763.1999
-C:\Windows\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FFCABE30000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SspiCli.dll', fileVersion: 6.2.17763.1490
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF613AF4E15)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613AF4E15)
-00007FF613AF4E15 (Growtopia): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF613AF34CA)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613AF34CA)
-00007FF613AF34CA (Growtopia): (filename not available): (function-name not available)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF61401B9E6)
-00007FF61401B9E6 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF614013A58)
-00007FF614013A58 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF614009322)
-00007FF614009322 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613FDFC83)
-00007FF613FDFC83 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAC107A9C)
-00007FFCAC107A9C (KERNELBASE): (filename not available): UnhandledExceptionFilter
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCB0008440)
-00007FFCB0008440 (ntdll): (filename not available): memset
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFFEFDD6)
-00007FFCAFFEFDD6 (ntdll): (filename not available): _C_specific_handler
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCB0004A2F)
-00007FFCB0004A2F (ntdll): (filename not available): _chkstk
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFF64CEF)
-00007FFCAFF64CEF (ntdll): (filename not available): RtlWalkFrameChain
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFF68AE6)
-00007FFCAFF68AE6 (ntdll): (filename not available): RtlRaiseException
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAC0B9319)
-00007FFCAC0B9319 (KERNELBASE): (filename not available): RaiseException
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCA24F64C0)
-00007FFCA24F64C0 (VCRUNTIME140): (filename not available): CxxThrowException
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00000001800015CF)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00000001800015CF)
-00000001800015CF (252): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00000001800D2DF3)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00000001800D2DF3)
-00000001800D2DF3 (252): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 000000018001DF27)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000000018001DF27)
-000000018001DF27 (252): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 000000018001F283)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000000018001F283)
-000000018001F283 (252): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00000001800CF9D7)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00000001800CF9D7)
-00000001800CF9D7 (252): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 0000000180021D44)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 0000000180021D44)
-0000000180021D44 (252): (filename not available): (function-name not available)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613F7FE3C)
-00007FF613F7FE3C (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613F71FE3)
-00007FF613F71FE3 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613F720B5)
-00007FF613F720B5 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFE87974)
-00007FFCAFE87974 (KERNEL32): (filename not available): BaseThreadInitThunk
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFFBA2F1)
-00007FFCAFFBA2F1 (ntdll): (filename not available): RtlUserThreadStart
+C:\Users\bxbmarket\AppData\Local\Growtopia\Growtopia.exe:Growtopia.exe (00007FF7083F0000), size: 13058048 (result: 0), SymType: '-exported-', PDB: 'C:\Users\bxbmarket\AppData\Local\Growtopia\Growtopia.exe'
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFF9A780000), size: 1757184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 6.3.9600.20090
+C:\Windows\system32\KERNEL32.DLL:KERNEL32.DLL (00007FFF9A600000), size: 1306624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\KERNEL32.DLL', fileVersion: 6.3.9600.20062
+C:\Windows\system32\KERNELBASE.dll:KERNELBASE.dll (00007FFF97CE0000), size: 1134592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\KERNELBASE.dll', fileVersion: 6.3.9600.20040
+C:\Windows\system32\WS2_32.dll:WS2_32.dll (00007FFF98AD0000), size: 368640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WS2_32.dll', fileVersion: 6.3.9600.18340
+C:\Windows\SYSTEM32\DINPUT8.dll:DINPUT8.dll (00007FFF85540000), size: 270336 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DINPUT8.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFF8F2C0000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 6.3.9600.17415
+C:\Users\bxbmarket\AppData\Local\Growtopia\fmod64.dll:fmod64.dll (00007FFF848F0000), size: 2043904 (result: 0), SymType: '-exported-', PDB: 'C:\Users\bxbmarket\AppData\Local\Growtopia\fmod64.dll', fileVersion: 0.1.10.6
+C:\Windows\system32\USER32.dll:USER32.dll (00007FFF98080000), size: 1536000 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\USER32.dll', fileVersion: 6.3.9600.20046
+C:\Windows\system32\GDI32.dll:GDI32.dll (00007FFF98420000), size: 1368064 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\GDI32.dll', fileVersion: 6.3.9600.20094
+C:\Windows\system32\ADVAPI32.dll:ADVAPI32.dll (00007FFF9A300000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ADVAPI32.dll', fileVersion: 6.3.9600.20035
+C:\Windows\system32\SHELL32.dll:SHELL32.dll (00007FFF98DB0000), size: 22208512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SHELL32.dll', fileVersion: 6.3.9600.19823
+C:\Windows\system32\ole32.dll:ole32.dll (00007FFF9A460000), size: 1658880 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ole32.dll', fileVersion: 6.3.9600.20040
+C:\Windows\system32\OLEAUT32.dll:OLEAUT32.dll (00007FFF98A00000), size: 811008 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\OLEAUT32.dll', fileVersion: 6.3.9600.20016
+C:\Users\bxbmarket\AppData\Local\Growtopia\SecureEngineSDK64.dll:SecureEngineSDK64.dll (0000000010000000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Users\bxbmarket\AppData\Local\Growtopia\SecureEngineSDK64.dll'
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFF93F40000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 6.3.9600.18264
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFF934B0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\VCOMP140.DLL:VCOMP140.DLL (00007FFF8D8A0000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCOMP140.DLL', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFF847C0000), size: 1224704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\urlmon.dll:urlmon.dll (00007FFF83E80000), size: 1609728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\urlmon.dll', fileVersion: 11.0.9600.20091
+C:\Windows\system32\NSI.dll:NSI.dll (00007FFF9A2E0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\NSI.dll', fileVersion: 6.3.9600.17415
+C:\Windows\system32\RPCRT4.dll:RPCRT4.dll (00007FFF98C70000), size: 1286144 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\RPCRT4.dll', fileVersion: 6.3.9600.19994
+C:\Windows\system32\msvcrt.dll:msvcrt.dll (00007FFF9A3B0000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\msvcrt.dll', fileVersion: 7.0.9600.17415
+C:\Windows\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (00007FFF8F290000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMMBASE.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FFF8F8F0000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSACM32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\sechost.dll:sechost.dll (00007FFF98940000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\sechost.dll', fileVersion: 6.3.9600.19749
+C:\Windows\SYSTEM32\combase.dll:combase.dll (00007FFF98200000), size: 2166784 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\combase.dll', fileVersion: 6.3.9600.20090
+C:\Windows\system32\SHLWAPI.dll:SHLWAPI.dll (00007FFF989A0000), size: 344064 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SHLWAPI.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FFF93ED0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINNSI.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFF8F2F0000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\DDRAW.dll:DDRAW.dll (00007FFF80E40000), size: 1015808 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DDRAW.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\NETAPI32.dll:NETAPI32.dll (00007FFF94010000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\NETAPI32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\iertutil.dll:iertutil.dll (00007FFF92ED0000), size: 2936832 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\iertutil.dll', fileVersion: 11.0.9600.20064
+C:\Windows\SYSTEM32\WININET.dll:WININET.dll (00007FFF84010000), size: 4898816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WININET.dll', fileVersion: 11.0.9600.20091
+C:\Windows\system32\SspiCli.dll:SspiCli.dll (00007FFF97CB0000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SspiCli.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (00007FFF97970000), size: 323584 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\cfgmgr32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\DEVOBJ.dll:DEVOBJ.dll (00007FFF96730000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DEVOBJ.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\DCIMAN32.dll:DCIMAN32.dll (00007FFF937F0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DCIMAN32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\netutils.dll:netutils.dll (00007FFF93FA0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\netutils.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\srvcli.dll:srvcli.dll (00007FFF974B0000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\srvcli.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\wkscli.dll:wkscli.dll (00007FFF93E40000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wkscli.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (00007FFF96E70000), size: 135168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\USERENV.dll', fileVersion: 6.3.9600.19846
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FFF97850000), size: 86016 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\profapi.dll', fileVersion: 6.3.9600.17415
+C:\Windows\system32\IMM32.DLL:IMM32.DLL (00007FFF9A740000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\IMM32.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\system32\MSCTF.dll:MSCTF.dll (00007FFF98750000), size: 1380352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSCTF.dll', fileVersion: 6.3.9600.19724
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFF965B0000), size: 1216512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.3.9600.19597
+C:\Windows\SYSTEM32\SHCORE.dll:SHCORE.dll (00007FFF96160000), size: 729088 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SHCORE.dll', fileVersion: 6.3.9600.19750
+C:\Windows\system32\dwmapi.dll:dwmapi.dll (00007FFF95F60000), size: 135168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dwmapi.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\d3d9.dll:d3d9.dll (00007FFF8F940000), size: 2232320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d9.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\d3d10warp.dll:d3d10warp.dll (00007FFF94A70000), size: 2486272 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d10warp.dll', fileVersion: 6.3.9600.19176
+C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFF965A0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\kernel.appcore.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FFF97710000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTBASE.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFF976A0000), size: 405504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\bcryptPrimitives.dll', fileVersion: 6.3.9600.18895
+C:\Windows\SYSTEM32\clbcatq.dll:clbcatq.dll (00007FFF97FC0000), size: 745472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\clbcatq.dll', fileVersion: 2001.12.10530.17415
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFF95330000), size: 458752 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFF96AF0000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\system32\SETUPAPI.DLL:SETUPAPI.DLL (00007FFF98570000), size: 1941504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SETUPAPI.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\system32\WINTRUST.dll:WINTRUST.dll (00007FFF97A70000), size: 331776 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINTRUST.dll', fileVersion: 6.3.9600.20059
+C:\Windows\system32\CRYPT32.dll:CRYPT32.dll (00007FFF97AD0000), size: 1957888 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CRYPT32.dll', fileVersion: 6.3.9600.19913
+C:\Windows\system32\MSASN1.dll:MSASN1.dll (00007FFF97950000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSASN1.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\WINSTA.dll:WINSTA.dll (00007FFF977C0000), size: 368640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINSTA.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFF93700000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntmarta.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFF84730000), size: 577536 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSVCP140.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFF90490000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFF85470000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll:api-ms-win-crt-heap-l1-1-0.dll (00007FFF8F8E0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll:api-ms-win-crt-runtime-l1-1-0.dll (00007FFF8F120000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll:api-ms-win-crt-string-l1-1-0.dll (00007FFF8EDE0000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll:api-ms-win-crt-stdio-l1-1-0.dll (00007FFF8EA40000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll:api-ms-win-crt-convert-l1-1-0.dll (00007FFF8E660000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll:api-ms-win-crt-filesystem-l1-1-0.dll (00007FFF8D960000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll:api-ms-win-crt-environment-l1-1-0.dll (00007FFF8D510000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll:api-ms-win-crt-math-l1-1-0.dll (00007FFF8D040000), size: 20480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll:api-ms-win-crt-time-l1-1-0.dll (00007FFF85460000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll:api-ms-win-crt-utility-l1-1-0.dll (00007FFF85450000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll:api-ms-win-crt-locale-l1-1-0.dll (00007FFF85440000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\ucrtbase.DLL:ucrtbase.DLL (00007FFF7CCE0000), size: 999424 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ucrtbase.DLL', fileVersion: 10.0.14393.2990
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFF83880000), size: 1609728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 6.3.9600.17787
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF7086508B5)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF7086508B5)
+00007FF7086508B5 (Growtopia): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF70864EF6A)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF70864EF6A)
+00007FF70864EF6A (Growtopia): (filename not available): (function-name not available)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF708B60DB6)
+00007FF708B60DB6 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF708B5C310)
+00007FF708B5C310 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF708B4E4F2)
+00007FF708B4E4F2 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF708B24EC3)
+00007FF708B24EC3 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF97DC1932)
+00007FFF97DC1932 (KERNELBASE): (filename not available): UnhandledExceptionFilter
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A81EC73)
+00007FFF9A81EC73 (ntdll): (filename not available): memset
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A8018D6)
+00007FFF9A8018D6 (ntdll): (filename not available): _C_specific_handler
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A812F5D)
+00007FFF9A812F5D (ntdll): (filename not available): _chkstk
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A7D4547)
+00007FFF9A7D4547 (ntdll): (filename not available): RtlRaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A7D376D)
+00007FFF9A7D376D (ntdll): (filename not available): RtlRaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF97CE7AFC)
+00007FFF97CE7AFC (KERNELBASE): (filename not available): RaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF85476480)
+00007FFF85476480 (VCRUNTIME140): (filename not available): CxxThrowException
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800015CF)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800015CF)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800015CF)
+00000001800015CF ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 000000000000003A)
+000000000000003A ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800202C2)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800202C2)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800202C2)
+00000001800202C2 ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: FFFFFFFFFFFFFFFF)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: FFFFFFFFFFFFFFFF)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: FFFFFFFFFFFFFFFF)
+FFFFFFFFFFFFFFFF ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 000000000000003A)
+000000000000003A ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800D7EB0)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800D7EB0)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800D7EB0)
+00000001800D7EB0 ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800D7ED8)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800D7ED8)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800D7ED8)
+00000001800D7ED8 ((module-name not available)): (filename not available): (function-name not available)
 Caught signal 22 (SIGABRT)
 Stack trace of crash:
-SymInit: Symbol-SearchPath: '.;C:\Users\Nawastore\AppData\Local\Growtopia;C:\Users\Nawastore\AppData\Local\Growtopia;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'Nawastore'
+SymInit: Symbol-SearchPath: '.;C:\Users\bxbmarket\AppData\Local\Growtopia;C:\Users\bxbmarket\AppData\Local\Growtopia;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'bxbmarket'
 OS-Version: 6.2.9200 () 0x190-0x3
-C:\Users\Nawastore\AppData\Local\Growtopia\Growtopia.exe:Growtopia.exe (00007FF613880000), size: 13344768 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Nawastore\AppData\Local\Growtopia\Growtopia.exe'
-C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFCAFF60000), size: 2019328 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFCAFE70000), size: 737280 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNEL32.DLL', fileVersion: 6.2.17763.2452
-C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFCAC080000), size: 2703360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNELBASE.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFCAF210000), size: 446464 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WS2_32.dll', fileVersion: 6.2.17763.2028
-C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFCAD3C0000), size: 1167360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\RPCRT4.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\USER32.dll:USER32.dll (00007FFCAE9E0000), size: 1667072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\USER32.dll', fileVersion: 6.2.17763.2213
-C:\Windows\System32\win32u.dll:win32u.dll (00007FFCAC060000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\win32u.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFCAFA60000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\GDI32.dll', fileVersion: 6.2.17763.1697
-C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFCAC420000), size: 1687552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\gdi32full.dll', fileVersion: 6.2.17763.2452
-C:\Windows\SYSTEM32\DINPUT8.dll:DINPUT8.dll (00007FFC9BD20000), size: 278528 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DINPUT8.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFCAD0C0000), size: 655360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcp_win.dll', fileVersion: 6.2.17763.348
-C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFCAC320000), size: 1024000 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ucrtbase.dll', fileVersion: 6.2.17763.1490
-C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFCAF640000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcrt.dll', fileVersion: 7.0.17763.475
-C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFCAF030000), size: 684032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ADVAPI32.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\sechost.dll:sechost.dll (00007FFCAF4B0000), size: 651264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\sechost.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFCAD4E0000), size: 21991424 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SHELL32.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFCAD050000), size: 303104 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\cfgmgr32.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\shcore.dll:shcore.dll (00007FFCAF3E0000), size: 688128 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\shcore.dll', fileVersion: 6.2.17763.2330
-C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFC9DBB0000), size: 147456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\combase.dll:combase.dll (00007FFCAFA90000), size: 3330048 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\combase.dll', fileVersion: 6.2.17763.2452
-C:\Windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFCAC7C0000), size: 532480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\bcryptPrimitives.dll', fileVersion: 6.2.17763.2366
-C:\Windows\System32\windows.storage.dll:windows.storage.dll (00007FFCAC900000), size: 7647232 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\windows.storage.dll', fileVersion: 6.2.17763.2452
-C:\Users\Nawastore\AppData\Local\Growtopia\fmod64.dll:fmod64.dll (00007FFC863E0000), size: 2043904 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Nawastore\AppData\Local\Growtopia\fmod64.dll', fileVersion: 0.1.10.6
-C:\Windows\System32\profapi.dll:profapi.dll (00007FFCABF50000), size: 147456 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\profapi.dll', fileVersion: 6.2.17763.1075
-C:\Windows\System32\powrprof.dll:powrprof.dll (00007FFCABF80000), size: 380928 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\powrprof.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\shlwapi.dll:shlwapi.dll (00007FFCAD360000), size: 335872 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\shlwapi.dll', fileVersion: 6.2.17763.1697
-C:\Windows\System32\kernel.appcore.dll:kernel.appcore.dll (00007FFCABFE0000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\kernel.appcore.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\cryptsp.dll:cryptsp.dll (00007FFCAD0A0000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\cryptsp.dll', fileVersion: 6.2.17763.1
-C:\Windows\System32\ole32.dll:ole32.dll (00007FFCAF280000), size: 1400832 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ole32.dll', fileVersion: 6.2.17763.2145
-C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFCAF560000), size: 802816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\OLEAUT32.dll', fileVersion: 6.2.17763.1935
-C:\Windows\SYSTEM32\winmmbase.dll:winmmbase.dll (00007FFC9DB80000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\winmmbase.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FFCA3190000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSACM32.dll', fileVersion: 6.2.17763.1
-C:\Users\Nawastore\AppData\Local\Growtopia\SecureEngineSDK64.dll:SecureEngineSDK64.dll (0000000010000000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Nawastore\AppData\Local\Growtopia\SecureEngineSDK64.dll'
-C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFCAB430000), size: 249856 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 6.2.17763.2213
-C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFCA67F0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFC94E40000), size: 1208320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\VCOMP140.DLL:VCOMP140.DLL (00007FFC9F400000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCOMP140.DLL', fileVersion: 14.29.30133.0
-C:\Windows\SYSTEM32\urlmon.dll:urlmon.dll (00007FFCA5BB0000), size: 1925120 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\urlmon.dll', fileVersion: 11.0.17763.2183
-C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFCA2550000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\iertutil.dll:iertutil.dll (00007FFCA58D0000), size: 2789376 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\iertutil.dll', fileVersion: 11.0.17763.2213
-C:\Windows\SYSTEM32\srvcli.dll:srvcli.dll (00007FFCA5B80000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\srvcli.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\netutils.dll:netutils.dll (00007FFCAB590000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\netutils.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FFCAB8F0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTBASE.DLL', fileVersion: 6.2.17763.1
-C:\Windows\System32\IMM32.DLL:IMM32.DLL (00007FFCAEB80000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\IMM32.DLL', fileVersion: 6.2.17763.719
-C:\Windows\SYSTEM32\inputhost.dll:inputhost.dll (00007FFCA3EA0000), size: 839680 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\inputhost.dll'
-C:\Windows\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FFCA9FC0000), size: 921600 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CoreMessaging.dll', fileVersion: 6.2.17763.1821
-C:\Windows\SYSTEM32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFCA7690000), size: 2146304 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\twinapi.appcore.dll', fileVersion: 6.2.17763.1697
-C:\Windows\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFCA8940000), size: 3284992 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CoreUIComponents.dll', fileVersion: 6.2.17763.1554
-C:\Windows\SYSTEM32\d2d1.dll:d2d1.dll (00007FFCA94D0000), size: 6021120 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d2d1.dll', fileVersion: 6.2.17763.1075
-C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFCA9250000), size: 2613248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d11.dll', fileVersion: 6.2.17763.1697
-C:\Windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFCA7FE0000), size: 1740800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\PROPSYS.dll', fileVersion: 7.0.17763.1697
-C:\Windows\SYSTEM32\wintypes.dll:wintypes.dll (00007FFCA87E0000), size: 1380352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wintypes.dll', fileVersion: 6.2.17763.2452
-C:\Windows\SYSTEM32\RMCLIENT.dll:RMCLIENT.dll (00007FFCA91D0000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\RMCLIENT.dll', fileVersion: 6.2.17763.1697
-C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFCAAF50000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntmarta.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFCAACD0000), size: 794624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dxgi.dll', fileVersion: 6.2.17763.1697
-C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFCAA830000), size: 638976 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.2.17763.2213
-C:\Windows\System32\MSCTF.dll:MSCTF.dll (00007FFCAD190000), size: 1486848 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MSCTF.dll', fileVersion: 6.2.17763.1728
-C:\Windows\system32\dwmapi.dll:dwmapi.dll (00007FFCAA910000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dwmapi.dll', fileVersion: 6.2.17763.1697
-C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFCAC5C0000), size: 2052096 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CRYPT32.dll', fileVersion: 6.2.17763.2268
-C:\Windows\System32\MSASN1.dll:MSASN1.dll (00007FFCABF30000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MSASN1.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\d3d9.dll:d3d9.dll (00007FFC89B20000), size: 1695744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d9.dll', fileVersion: 6.2.17763.1075
-C:\Windows\SYSTEM32\d3d10warp.dll:d3d10warp.dll (00007FFCA78A0000), size: 7581696 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d10warp.dll', fileVersion: 6.2.17763.1432
-C:\Windows\System32\TextInputFramework.dll:TextInputFramework.dll (00007FFCA90E0000), size: 602112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\TextInputFramework.dll', fileVersion: 6.2.17763.2330
-C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFCAFDC0000), size: 663552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
-C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFC94BF0000), size: 458752 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.2.17763.1697
-C:\Windows\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFCABCD0000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DEVOBJ.dll', fileVersion: 6.2.17763.2145
-C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFCAAB70000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 6.2.17763.1
-C:\Windows\System32\SETUPAPI.DLL:SETUPAPI.DLL (00007FFCAEBB0000), size: 4677632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SETUPAPI.DLL', fileVersion: 6.2.17763.404
-C:\Windows\System32\bcrypt.dll:bcrypt.dll (00007FFCAD160000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\bcrypt.dll', fileVersion: 6.2.17763.2090
-C:\Windows\System32\WINTRUST.dll:WINTRUST.dll (00007FFCAC000000), size: 364544 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WINTRUST.dll', fileVersion: 6.2.17763.2452
-C:\Windows\SYSTEM32\WINSTA.dll:WINSTA.dll (00007FFCABDD0000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINSTA.dll', fileVersion: 6.2.17763.771
-C:\Users\Nawastore\Desktop\252.dll:252.dll (0000000180000000), size: 2441216 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Users\Nawastore\Desktop\252.dll', fileVersion: 1.3.3.0
-C:\Windows\SYSTEM32\WININET.dll:WININET.dll (00007FFC99E80000), size: 5115904 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WININET.dll', fileVersion: 11.0.17763.2145
-C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFC9BE80000), size: 577536 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSVCP140.dll', fileVersion: 14.29.30133.0
-C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFCA3B50000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.29.30133.0
-C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFCA24F0000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.29.30133.0
-C:\Windows\SYSTEM32\xinput1_4.dll:xinput1_4.dll (00007FFCA0580000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\xinput1_4.dll', fileVersion: 6.2.17763.1
-C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFCA8410000), size: 2019328 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 6.2.17763.1999
-C:\Windows\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FFCABE30000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SspiCli.dll', fileVersion: 6.2.17763.1490
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF613AF4E15)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613AF4E15)
-00007FF613AF4E15 (Growtopia): (filename not available): (function-name not available)
-ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF613AF34CA)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613AF34CA)
-00007FF613AF34CA (Growtopia): (filename not available): (function-name not available)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF61401B9E6)
-00007FF61401B9E6 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF614013A58)
-00007FF614013A58 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF614009322)
-00007FF614009322 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613FDFC83)
-00007FF613FDFC83 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAC107A9C)
-00007FFCAC107A9C (KERNELBASE): (filename not available): UnhandledExceptionFilter
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCB0008440)
-00007FFCB0008440 (ntdll): (filename not available): memset
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFFEFDD6)
-00007FFCAFFEFDD6 (ntdll): (filename not available): _C_specific_handler
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCB0004A2F)
-00007FFCB0004A2F (ntdll): (filename not available): _chkstk
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFF64CEF)
-00007FFCAFF64CEF (ntdll): (filename not available): RtlWalkFrameChain
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFF68AE6)
-00007FFCAFF68AE6 (ntdll): (filename not available): RtlRaiseException
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAC0B9319)
-00007FFCAC0B9319 (KERNELBASE): (filename not available): RaiseException
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCA24F6480)
-00007FFCA24F6480 (VCRUNTIME140): (filename not available): CxxThrowException
+C:\Users\bxbmarket\AppData\Local\Growtopia\Growtopia.exe:Growtopia.exe (00007FF7083F0000), size: 13058048 (result: 0), SymType: '-exported-', PDB: 'C:\Users\bxbmarket\AppData\Local\Growtopia\Growtopia.exe'
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFF9A780000), size: 1757184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 6.3.9600.20090
+C:\Windows\system32\KERNEL32.DLL:KERNEL32.DLL (00007FFF9A600000), size: 1306624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\KERNEL32.DLL', fileVersion: 6.3.9600.20062
+C:\Windows\system32\KERNELBASE.dll:KERNELBASE.dll (00007FFF97CE0000), size: 1134592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\KERNELBASE.dll', fileVersion: 6.3.9600.20040
+C:\Windows\system32\WS2_32.dll:WS2_32.dll (00007FFF98AD0000), size: 368640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WS2_32.dll', fileVersion: 6.3.9600.18340
+C:\Windows\SYSTEM32\DINPUT8.dll:DINPUT8.dll (00007FFF85540000), size: 270336 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DINPUT8.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFF8F2C0000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 6.3.9600.17415
+C:\Users\bxbmarket\AppData\Local\Growtopia\fmod64.dll:fmod64.dll (00007FFF848F0000), size: 2043904 (result: 0), SymType: '-exported-', PDB: 'C:\Users\bxbmarket\AppData\Local\Growtopia\fmod64.dll', fileVersion: 0.1.10.6
+C:\Windows\system32\USER32.dll:USER32.dll (00007FFF98080000), size: 1536000 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\USER32.dll', fileVersion: 6.3.9600.20046
+C:\Windows\system32\GDI32.dll:GDI32.dll (00007FFF98420000), size: 1368064 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\GDI32.dll', fileVersion: 6.3.9600.20094
+C:\Windows\system32\ADVAPI32.dll:ADVAPI32.dll (00007FFF9A300000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ADVAPI32.dll', fileVersion: 6.3.9600.20035
+C:\Windows\system32\SHELL32.dll:SHELL32.dll (00007FFF98DB0000), size: 22208512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SHELL32.dll', fileVersion: 6.3.9600.19823
+C:\Windows\system32\ole32.dll:ole32.dll (00007FFF9A460000), size: 1658880 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ole32.dll', fileVersion: 6.3.9600.20040
+C:\Windows\system32\OLEAUT32.dll:OLEAUT32.dll (00007FFF98A00000), size: 811008 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\OLEAUT32.dll', fileVersion: 6.3.9600.20016
+C:\Users\bxbmarket\AppData\Local\Growtopia\SecureEngineSDK64.dll:SecureEngineSDK64.dll (0000000010000000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Users\bxbmarket\AppData\Local\Growtopia\SecureEngineSDK64.dll'
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFF93F40000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 6.3.9600.18264
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFF934B0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\VCOMP140.DLL:VCOMP140.DLL (00007FFF8D8A0000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCOMP140.DLL', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFF847C0000), size: 1224704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\urlmon.dll:urlmon.dll (00007FFF83E80000), size: 1609728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\urlmon.dll', fileVersion: 11.0.9600.20091
+C:\Windows\system32\NSI.dll:NSI.dll (00007FFF9A2E0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\NSI.dll', fileVersion: 6.3.9600.17415
+C:\Windows\system32\RPCRT4.dll:RPCRT4.dll (00007FFF98C70000), size: 1286144 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\RPCRT4.dll', fileVersion: 6.3.9600.19994
+C:\Windows\system32\msvcrt.dll:msvcrt.dll (00007FFF9A3B0000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\msvcrt.dll', fileVersion: 7.0.9600.17415
+C:\Windows\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (00007FFF8F290000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMMBASE.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FFF8F8F0000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSACM32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\sechost.dll:sechost.dll (00007FFF98940000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\sechost.dll', fileVersion: 6.3.9600.19749
+C:\Windows\SYSTEM32\combase.dll:combase.dll (00007FFF98200000), size: 2166784 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\combase.dll', fileVersion: 6.3.9600.20090
+C:\Windows\system32\SHLWAPI.dll:SHLWAPI.dll (00007FFF989A0000), size: 344064 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SHLWAPI.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FFF93ED0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINNSI.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFF8F2F0000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\DDRAW.dll:DDRAW.dll (00007FFF80E40000), size: 1015808 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DDRAW.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\NETAPI32.dll:NETAPI32.dll (00007FFF94010000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\NETAPI32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\iertutil.dll:iertutil.dll (00007FFF92ED0000), size: 2936832 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\iertutil.dll', fileVersion: 11.0.9600.20064
+C:\Windows\SYSTEM32\WININET.dll:WININET.dll (00007FFF84010000), size: 4898816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WININET.dll', fileVersion: 11.0.9600.20091
+C:\Windows\system32\SspiCli.dll:SspiCli.dll (00007FFF97CB0000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SspiCli.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (00007FFF97970000), size: 323584 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\cfgmgr32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\DEVOBJ.dll:DEVOBJ.dll (00007FFF96730000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DEVOBJ.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\DCIMAN32.dll:DCIMAN32.dll (00007FFF937F0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DCIMAN32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\netutils.dll:netutils.dll (00007FFF93FA0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\netutils.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\srvcli.dll:srvcli.dll (00007FFF974B0000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\srvcli.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\wkscli.dll:wkscli.dll (00007FFF93E40000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wkscli.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (00007FFF96E70000), size: 135168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\USERENV.dll', fileVersion: 6.3.9600.19846
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FFF97850000), size: 86016 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\profapi.dll', fileVersion: 6.3.9600.17415
+C:\Windows\system32\IMM32.DLL:IMM32.DLL (00007FFF9A740000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\IMM32.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\system32\MSCTF.dll:MSCTF.dll (00007FFF98750000), size: 1380352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSCTF.dll', fileVersion: 6.3.9600.19724
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFF965B0000), size: 1216512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.3.9600.19597
+C:\Windows\SYSTEM32\SHCORE.dll:SHCORE.dll (00007FFF96160000), size: 729088 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SHCORE.dll', fileVersion: 6.3.9600.19750
+C:\Windows\system32\dwmapi.dll:dwmapi.dll (00007FFF95F60000), size: 135168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dwmapi.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\d3d9.dll:d3d9.dll (00007FFF8F940000), size: 2232320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d9.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\d3d10warp.dll:d3d10warp.dll (00007FFF94A70000), size: 2486272 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d10warp.dll', fileVersion: 6.3.9600.19176
+C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFF965A0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\kernel.appcore.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FFF97710000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTBASE.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFF976A0000), size: 405504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\bcryptPrimitives.dll', fileVersion: 6.3.9600.18895
+C:\Windows\SYSTEM32\clbcatq.dll:clbcatq.dll (00007FFF97FC0000), size: 745472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\clbcatq.dll', fileVersion: 2001.12.10530.17415
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFF95330000), size: 458752 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFF96AF0000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\system32\SETUPAPI.DLL:SETUPAPI.DLL (00007FFF98570000), size: 1941504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SETUPAPI.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\system32\WINTRUST.dll:WINTRUST.dll (00007FFF97A70000), size: 331776 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINTRUST.dll', fileVersion: 6.3.9600.20059
+C:\Windows\system32\CRYPT32.dll:CRYPT32.dll (00007FFF97AD0000), size: 1957888 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CRYPT32.dll', fileVersion: 6.3.9600.19913
+C:\Windows\system32\MSASN1.dll:MSASN1.dll (00007FFF97950000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSASN1.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\WINSTA.dll:WINSTA.dll (00007FFF977C0000), size: 368640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINSTA.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFF93700000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntmarta.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFF84730000), size: 577536 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSVCP140.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFF90490000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFF85470000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll:api-ms-win-crt-heap-l1-1-0.dll (00007FFF8F8E0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll:api-ms-win-crt-runtime-l1-1-0.dll (00007FFF8F120000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll:api-ms-win-crt-string-l1-1-0.dll (00007FFF8EDE0000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll:api-ms-win-crt-stdio-l1-1-0.dll (00007FFF8EA40000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll:api-ms-win-crt-convert-l1-1-0.dll (00007FFF8E660000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll:api-ms-win-crt-filesystem-l1-1-0.dll (00007FFF8D960000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll:api-ms-win-crt-environment-l1-1-0.dll (00007FFF8D510000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll:api-ms-win-crt-math-l1-1-0.dll (00007FFF8D040000), size: 20480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll:api-ms-win-crt-time-l1-1-0.dll (00007FFF85460000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll:api-ms-win-crt-utility-l1-1-0.dll (00007FFF85450000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll:api-ms-win-crt-locale-l1-1-0.dll (00007FFF85440000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\ucrtbase.DLL:ucrtbase.DLL (00007FFF7C890000), size: 999424 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ucrtbase.DLL', fileVersion: 10.0.14393.2990
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFF83880000), size: 1609728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 6.3.9600.17787
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF7086508B5)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF7086508B5)
+00007FF7086508B5 (Growtopia): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF70864EF6A)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF70864EF6A)
+00007FF70864EF6A (Growtopia): (filename not available): (function-name not available)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF708B60DB6)
+00007FF708B60DB6 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF708B5C310)
+00007FF708B5C310 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF708B4E4F2)
+00007FF708B4E4F2 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF708B24EC3)
+00007FF708B24EC3 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF97DC1932)
+00007FFF97DC1932 (KERNELBASE): (filename not available): UnhandledExceptionFilter
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A81EC73)
+00007FFF9A81EC73 (ntdll): (filename not available): memset
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A8018D6)
+00007FFF9A8018D6 (ntdll): (filename not available): _C_specific_handler
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A812F5D)
+00007FFF9A812F5D (ntdll): (filename not available): _chkstk
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A7D4547)
+00007FFF9A7D4547 (ntdll): (filename not available): RtlRaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF9A7D376D)
+00007FFF9A7D376D (ntdll): (filename not available): RtlRaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF97CE7AFC)
+00007FFF97CE7AFC (KERNELBASE): (filename not available): RaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFF85476480)
+00007FFF85476480 (VCRUNTIME140): (filename not available): CxxThrowException
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800015CF)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800015CF)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800015CF)
+00000001800015CF ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 000000000000003A)
+000000000000003A ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800202C2)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800202C2)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800202C2)
+00000001800202C2 ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: FFFFFFFFFFFFFFFF)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: FFFFFFFFFFFFFFFF)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: FFFFFFFFFFFFFFFF)
+FFFFFFFFFFFFFFFF ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 000000000000003A)
+000000000000003A ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800D7EB0)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800D7EB0)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800D7EB0)
+00000001800D7EB0 ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800D7ED8)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800D7ED8)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800D7ED8)
+00000001800D7ED8 ((module-name not available)): (filename not available): (function-name not available)
+Caught signal 22 (SIGABRT)
+Stack trace of crash:
+SymInit: Symbol-SearchPath: '.;C:\Users\bxbmarket\AppData\Local\Growtopia;C:\Users\bxbmarket\AppData\Local\Growtopia;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'bxbmarket'
+OS-Version: 6.2.9200 () 0x190-0x3
+C:\Users\bxbmarket\AppData\Local\Growtopia\Growtopia.exe:Growtopia.exe (00007FF78C6F0000), size: 13058048 (result: 0), SymType: '-exported-', PDB: 'C:\Users\bxbmarket\AppData\Local\Growtopia\Growtopia.exe'
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFDE9840000), size: 1757184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 6.3.9600.20090
+C:\Windows\system32\KERNEL32.DLL:KERNEL32.DLL (00007FFDE7FB0000), size: 1306624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\KERNEL32.DLL', fileVersion: 6.3.9600.20062
+C:\Windows\system32\KERNELBASE.dll:KERNELBASE.dll (00007FFDE6DA0000), size: 1134592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\KERNELBASE.dll', fileVersion: 6.3.9600.20040
+C:\Windows\system32\WS2_32.dll:WS2_32.dll (00007FFDE8270000), size: 368640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WS2_32.dll', fileVersion: 6.3.9600.18340
+C:\Windows\SYSTEM32\DINPUT8.dll:DINPUT8.dll (00007FFDD0FF0000), size: 270336 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DINPUT8.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFDE28B0000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 6.3.9600.17415
+C:\Users\bxbmarket\AppData\Local\Growtopia\fmod64.dll:fmod64.dll (00007FFDCE220000), size: 2043904 (result: 0), SymType: '-exported-', PDB: 'C:\Users\bxbmarket\AppData\Local\Growtopia\fmod64.dll', fileVersion: 0.1.10.6
+C:\Windows\system32\USER32.dll:USER32.dll (00007FFDE6F30000), size: 1536000 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\USER32.dll', fileVersion: 6.3.9600.20046
+C:\Windows\system32\GDI32.dll:GDI32.dll (00007FFDE70D0000), size: 1368064 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\GDI32.dll', fileVersion: 6.3.9600.20117
+C:\Windows\system32\ADVAPI32.dll:ADVAPI32.dll (00007FFDE7C10000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ADVAPI32.dll', fileVersion: 6.3.9600.20035
+C:\Windows\system32\SHELL32.dll:SHELL32.dll (00007FFDE8310000), size: 22208512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SHELL32.dll', fileVersion: 6.3.9600.19823
+C:\Windows\system32\ole32.dll:ole32.dll (00007FFDE7E10000), size: 1658880 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ole32.dll', fileVersion: 6.3.9600.20040
+C:\Windows\system32\OLEAUT32.dll:OLEAUT32.dll (00007FFDE7D40000), size: 811008 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\OLEAUT32.dll', fileVersion: 6.3.9600.20016
+C:\Users\bxbmarket\AppData\Local\Growtopia\SecureEngineSDK64.dll:SecureEngineSDK64.dll (0000000010000000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Users\bxbmarket\AppData\Local\Growtopia\SecureEngineSDK64.dll'
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFDE2840000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 6.3.9600.18264
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFDE07D0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\VCOMP140.DLL:VCOMP140.DLL (00007FFDCE650000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCOMP140.DLL', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFDCE520000), size: 1224704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\urlmon.dll:urlmon.dll (00007FFDD4FB0000), size: 1609728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\urlmon.dll', fileVersion: 11.0.9600.20120
+C:\Windows\system32\NSI.dll:NSI.dll (00007FFDE7820000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\NSI.dll', fileVersion: 6.3.9600.17415
+C:\Windows\system32\RPCRT4.dll:RPCRT4.dll (00007FFDE7AD0000), size: 1286144 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\RPCRT4.dll', fileVersion: 6.3.9600.19994
+C:\Windows\system32\msvcrt.dll:msvcrt.dll (00007FFDE8100000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\msvcrt.dll', fileVersion: 7.0.9600.17415
+C:\Windows\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (00007FFDDC560000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMMBASE.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FFDD0F00000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSACM32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\sechost.dll:sechost.dll (00007FFDE7830000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\sechost.dll', fileVersion: 6.3.9600.19749
+C:\Windows\SYSTEM32\combase.dll:combase.dll (00007FFDE7220000), size: 2166784 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\combase.dll', fileVersion: 6.3.9600.20107
+C:\Windows\system32\SHLWAPI.dll:SHLWAPI.dll (00007FFDE7890000), size: 344064 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SHLWAPI.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FFDE25D0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINNSI.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFDCE4F0000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\DDRAW.dll:DDRAW.dll (00007FFDCE120000), size: 1015808 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DDRAW.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\NETAPI32.dll:NETAPI32.dll (00007FFDE38C0000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\NETAPI32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\iertutil.dll:iertutil.dll (00007FFDE08F0000), size: 2936832 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\iertutil.dll', fileVersion: 11.0.9600.20064
+C:\Windows\SYSTEM32\WININET.dll:WININET.dll (00007FFDD4920000), size: 4898816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WININET.dll', fileVersion: 11.0.9600.20120
+C:\Windows\system32\SspiCli.dll:SspiCli.dll (00007FFDE6D10000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SspiCli.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (00007FFDE6A30000), size: 323584 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\cfgmgr32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\DEVOBJ.dll:DEVOBJ.dll (00007FFDE5810000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DEVOBJ.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\DCIMAN32.dll:DCIMAN32.dll (00007FFDD2140000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DCIMAN32.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\netutils.dll:netutils.dll (00007FFDE3D40000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\netutils.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\srvcli.dll:srvcli.dll (00007FFDE6570000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\srvcli.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\wkscli.dll:wkscli.dll (00007FFDE3A50000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wkscli.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (00007FFDE5F30000), size: 135168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\USERENV.dll', fileVersion: 6.3.9600.19846
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FFDE6960000), size: 86016 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\profapi.dll', fileVersion: 6.3.9600.17415
+C:\Windows\system32\IMM32.DLL:IMM32.DLL (00007FFDE82D0000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\IMM32.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\system32\MSCTF.dll:MSCTF.dll (00007FFDE7500000), size: 1380352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSCTF.dll', fileVersion: 6.3.9600.19724
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFDE5670000), size: 1216512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.3.9600.19597
+C:\Windows\SYSTEM32\SHCORE.dll:SHCORE.dll (00007FFDE5220000), size: 729088 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SHCORE.dll', fileVersion: 6.3.9600.19750
+C:\Windows\system32\dwmapi.dll:dwmapi.dll (00007FFDE4E40000), size: 135168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dwmapi.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\d3d9.dll:d3d9.dll (00007FFDDB250000), size: 2232320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d9.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\d3d10warp.dll:d3d10warp.dll (00007FFDE3E10000), size: 2486272 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d10warp.dll', fileVersion: 6.3.9600.19176
+C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFDE5660000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\kernel.appcore.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FFDE68D0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTBASE.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFDE6760000), size: 405504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\bcryptPrimitives.dll', fileVersion: 6.3.9600.18895
+C:\Windows\SYSTEM32\clbcatq.dll:clbcatq.dll (00007FFDE7440000), size: 745472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\clbcatq.dll', fileVersion: 2001.12.10530.17415
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFDE3D80000), size: 458752 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFDE5BB0000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\system32\SETUPAPI.DLL:SETUPAPI.DLL (00007FFDE78F0000), size: 1941504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SETUPAPI.DLL', fileVersion: 6.3.9600.17415
+C:\Windows\system32\WINTRUST.dll:WINTRUST.dll (00007FFDE6D40000), size: 331776 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINTRUST.dll', fileVersion: 6.3.9600.20108
+C:\Windows\system32\CRYPT32.dll:CRYPT32.dll (00007FFDE6B30000), size: 1957888 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CRYPT32.dll', fileVersion: 6.3.9600.19913
+C:\Windows\system32\MSASN1.dll:MSASN1.dll (00007FFDE6A10000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSASN1.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\WINSTA.dll:WINSTA.dll (00007FFDE6870000), size: 368640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINSTA.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFDE2C50000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntmarta.dll', fileVersion: 6.3.9600.17415
+C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFDCCFD0000), size: 577536 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSVCP140.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFDD0FE0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFDCE4D0000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll:api-ms-win-crt-heap-l1-1-0.dll (00007FFDCE4C0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll:api-ms-win-crt-runtime-l1-1-0.dll (00007FFDCE4B0000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll:api-ms-win-crt-string-l1-1-0.dll (00007FFDCE110000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll:api-ms-win-crt-stdio-l1-1-0.dll (00007FFDCE100000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll:api-ms-win-crt-convert-l1-1-0.dll (00007FFDCE0F0000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll:api-ms-win-crt-filesystem-l1-1-0.dll (00007FFDCE0E0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll:api-ms-win-crt-environment-l1-1-0.dll (00007FFDCE0D0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll:api-ms-win-crt-math-l1-1-0.dll (00007FFDCE0C0000), size: 20480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll:api-ms-win-crt-time-l1-1-0.dll (00007FFDCE0B0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll:api-ms-win-crt-utility-l1-1-0.dll (00007FFDCE070000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll:api-ms-win-crt-locale-l1-1-0.dll (00007FFDCE060000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\ucrtbase.DLL:ucrtbase.DLL (00007FFDCCED0000), size: 999424 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ucrtbase.DLL', fileVersion: 10.0.14393.2990
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFDE3BB0000), size: 1609728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 6.3.9600.17787
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF78C9508B5)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF78C9508B5)
+00007FF78C9508B5 (Growtopia): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF78C94EF6A)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF78C94EF6A)
+00007FF78C94EF6A (Growtopia): (filename not available): (function-name not available)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF78CE60DB6)
+00007FF78CE60DB6 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF78CE5C310)
+00007FF78CE5C310 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF78CE4E4F2)
+00007FF78CE4E4F2 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF78CE24EC3)
+00007FF78CE24EC3 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFDE6E81932)
+00007FFDE6E81932 (KERNELBASE): (filename not available): UnhandledExceptionFilter
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFDE98DEC73)
+00007FFDE98DEC73 (ntdll): (filename not available): memset
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFDE98C18D6)
+00007FFDE98C18D6 (ntdll): (filename not available): _C_specific_handler
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFDE98D2F5D)
+00007FFDE98D2F5D (ntdll): (filename not available): _chkstk
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFDE9894547)
+00007FFDE9894547 (ntdll): (filename not available): RtlRaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFDE989376D)
+00007FFDE989376D (ntdll): (filename not available): RtlRaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFDE6DA7AFC)
+00007FFDE6DA7AFC (KERNELBASE): (filename not available): RaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFDCE4D6480)
+00007FFDCE4D6480 (VCRUNTIME140): (filename not available): CxxThrowException
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800015CF)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800015CF)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800015CF)
+00000001800015CF ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 000000000000003A)
+000000000000003A ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800202C2)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800202C2)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800202C2)
+00000001800202C2 ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: FFFFFFFFFFFFFFFF)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: FFFFFFFFFFFFFFFF)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: FFFFFFFFFFFFFFFF)
+FFFFFFFFFFFFFFFF ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 000000000000003A)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 000000000000003A)
+000000000000003A ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800D7EB0)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800D7EB0)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800D7EB0)
+00000001800D7EB0 ((module-name not available)): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 126 (Address: 00000001800D7ED8)
+ERROR: SymGetLineFromAddr64, GetLastError: 126 (Address: 00000001800D7ED8)
+ERROR: SymGetModuleInfo64, GetLastError: 1114 (Address: 00000001800D7ED8)
+00000001800D7ED8 ((module-name not available)): (filename not available): (function-name not available)
+Caught signal 22 (SIGABRT)
+Stack trace of crash:
+SymInit: Symbol-SearchPath: '.;C:\Users\Hrd.yz\AppData\Roaming\Growtopia;C:\Users\Hrd.yz\AppData\Roaming\Growtopia;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'Hrd.yz'
+OS-Version: 6.2.9200 () 0x190-0x3
+C:\Users\Hrd.yz\AppData\Roaming\Growtopia\Growtopia.exe:Growtopia.exe (00007FF6406C0000), size: 13058048 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Hrd.yz\AppData\Roaming\Growtopia\Growtopia.exe'
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFC03B60000), size: 2019328 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 6.2.17763.2145
+C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFC01200000), size: 737280 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNEL32.DLL', fileVersion: 6.2.17763.2145
+C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFBFFC20000), size: 2707456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNELBASE.dll', fileVersion: 6.2.17763.2183
+C:\Windows\SYSTEM32\apphelp.dll:apphelp.dll (00007FFBFE040000), size: 573440 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\apphelp.dll', fileVersion: 6.2.17763.1879
+C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFC035F0000), size: 446464 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WS2_32.dll', fileVersion: 6.2.17763.2028
+C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFC01900000), size: 1175552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\RPCRT4.dll', fileVersion: 6.2.17763.1999
+C:\Windows\System32\USER32.dll:USER32.dll (00007FFC00D90000), size: 1671168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\USER32.dll', fileVersion: 6.2.17763.2145
+C:\Windows\System32\win32u.dll:win32u.dll (00007FFC00A80000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\win32u.dll', fileVersion: 6.2.17763.1
+C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFC01CE0000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\GDI32.dll', fileVersion: 6.2.17763.1697
+C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFC00AA0000), size: 1687552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\gdi32full.dll', fileVersion: 6.2.17763.2061
+C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFC00150000), size: 655360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcp_win.dll', fileVersion: 6.2.17763.348
+C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFC00C40000), size: 1024000 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ucrtbase.dll', fileVersion: 6.2.17763.1490
+C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFC010A0000), size: 671744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ADVAPI32.dll', fileVersion: 6.2.17763.1999
+C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFC01850000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcrt.dll', fileVersion: 7.0.17763.475
+C:\Windows\System32\sechost.dll:sechost.dll (00007FFC01AF0000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\sechost.dll', fileVersion: 6.2.17763.1852
+C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFC02040000), size: 21987328 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SHELL32.dll', fileVersion: 6.2.17763.2145
+C:\Windows\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFBFFEC0000), size: 303104 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\cfgmgr32.dll', fileVersion: 6.2.17763.1
+C:\Windows\System32\shcore.dll:shcore.dll (00007FFC03540000), size: 688128 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\shcore.dll', fileVersion: 6.2.17763.1697
+C:\Windows\System32\combase.dll:combase.dll (00007FFC01D10000), size: 3330048 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\combase.dll', fileVersion: 6.2.17763.2145
+C:\Windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFC001F0000), size: 532480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\bcryptPrimitives.dll', fileVersion: 6.2.17763.2090
+C:\Windows\System32\windows.storage.dll:windows.storage.dll (00007FFC00280000), size: 7643136 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\windows.storage.dll', fileVersion: 6.2.17763.2145
+C:\Windows\System32\profapi.dll:profapi.dll (00007FFBFFB70000), size: 147456 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\System32\profapi.dll', fileVersion: 6.2.17763.1075
+C:\Windows\System32\powrprof.dll:powrprof.dll (00007FFBFFBC0000), size: 380928 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\powrprof.dll', fileVersion: 6.2.17763.1
+C:\Windows\System32\shlwapi.dll:shlwapi.dll (00007FFC01370000), size: 335872 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\shlwapi.dll', fileVersion: 6.2.17763.1697
+C:\Windows\System32\kernel.appcore.dll:kernel.appcore.dll (00007FFBFFB50000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\kernel.appcore.dll', fileVersion: 6.2.17763.1
+C:\Windows\System32\cryptsp.dll:cryptsp.dll (00007FFC00D40000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\cryptsp.dll', fileVersion: 6.2.17763.1
+C:\Windows\System32\ole32.dll:ole32.dll (00007FFC03660000), size: 1400832 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ole32.dll', fileVersion: 6.2.17763.2145
+C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFC01A20000), size: 802816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\OLEAUT32.dll', fileVersion: 6.2.17763.1935
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFBFDDB0000), size: 147456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 6.2.17763.1
+C:\Users\Hrd.yz\AppData\Roaming\Growtopia\fmod64.dll:fmod64.dll (00007FFBDCAE0000), size: 2043904 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Hrd.yz\AppData\Roaming\Growtopia\fmod64.dll', fileVersion: 0.1.10.6
+C:\Users\Hrd.yz\AppData\Roaming\Growtopia\SecureEngineSDK64.dll:SecureEngineSDK64.dll (0000000010000000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Hrd.yz\AppData\Roaming\Growtopia\SecureEngineSDK64.dll'
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFBFF060000), size: 249856 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 6.2.17763.615
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFBF5F80000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 6.2.17763.1
+C:\Windows\SYSTEM32\VCOMP140.DLL:VCOMP140.DLL (00007FFBEA650000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCOMP140.DLL', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\DINPUT8.dll:DINPUT8.dll (00007FFBE98A0000), size: 278528 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DINPUT8.dll', fileVersion: 6.2.17763.1
+C:\Windows\SYSTEM32\urlmon.dll:urlmon.dll (00007FFBF8A10000), size: 1925120 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\urlmon.dll', fileVersion: 11.0.17763.2183
+C:\Windows\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (00007FFBFDD50000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMMBASE.dll', fileVersion: 6.2.17763.1
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFBDD470000), size: 1208320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 6.2.17763.1
+C:\Windows\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FFBEA5D0000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSACM32.dll', fileVersion: 6.2.17763.1
+C:\Windows\SYSTEM32\iertutil.dll:iertutil.dll (00007FFBF9C60000), size: 2789376 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\iertutil.dll', fileVersion: 11.0.17763.1971
+C:\Windows\SYSTEM32\srvcli.dll:srvcli.dll (00007FFBF81E0000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\srvcli.dll', fileVersion: 6.2.17763.1
+C:\Windows\SYSTEM32\netutils.dll:netutils.dll (00007FFBFF1B0000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\netutils.dll', fileVersion: 6.2.17763.1
+C:\Windows\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FFBFF510000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTBASE.DLL', fileVersion: 6.2.17763.1
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFBEA0E0000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 6.2.17763.1
+C:\Windows\System32\IMM32.DLL:IMM32.DLL (00007FFC01150000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\IMM32.DLL', fileVersion: 6.2.17763.719
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFBFE110000), size: 638976 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.2.17763.1697
+C:\Windows\SYSTEM32\inputhost.dll:inputhost.dll (00007FFBFC1A0000), size: 839680 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\inputhost.dll'
+C:\Windows\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FFBFD810000), size: 921600 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CoreMessaging.dll', fileVersion: 6.2.17763.1821
+C:\Windows\SYSTEM32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFBFE210000), size: 2146304 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\twinapi.appcore.dll', fileVersion: 6.2.17763.1697
+C:\Windows\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFBFBC20000), size: 3284992 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CoreUIComponents.dll', fileVersion: 6.2.17763.1554
+C:\Windows\SYSTEM32\d2d1.dll:d2d1.dll (00007FFBFD250000), size: 6021120 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d2d1.dll', fileVersion: 6.2.17763.1075
+C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFBFCDE0000), size: 2613248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d11.dll', fileVersion: 6.2.17763.1697
+C:\Windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFBFBF50000), size: 1740800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\PROPSYS.dll', fileVersion: 7.0.17763.1697
+C:\Windows\SYSTEM32\wintypes.dll:wintypes.dll (00007FFBFBAC0000), size: 1380352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wintypes.dll', fileVersion: 6.2.17763.2145
+C:\Windows\SYSTEM32\RMCLIENT.dll:RMCLIENT.dll (00007FFBFE1E0000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\RMCLIENT.dll', fileVersion: 6.2.17763.1697
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFBFEBA0000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntmarta.dll', fileVersion: 6.2.17763.1
+C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFBFE850000), size: 794624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dxgi.dll', fileVersion: 6.2.17763.1697
+C:\Windows\System32\MSCTF.dll:MSCTF.dll (00007FFC00F30000), size: 1486848 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MSCTF.dll', fileVersion: 6.2.17763.1728
+C:\Windows\system32\dwmapi.dll:dwmapi.dll (00007FFBFE520000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dwmapi.dll', fileVersion: 6.2.17763.1697
+C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFBFFF10000), size: 1949696 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CRYPT32.dll', fileVersion: 6.2.17763.2145
+C:\Windows\System32\MSASN1.dll:MSASN1.dll (00007FFBFFBA0000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MSASN1.dll', fileVersion: 6.2.17763.1
+C:\Windows\SYSTEM32\d3d9.dll:d3d9.dll (00007FFBDDB00000), size: 1695744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d9.dll', fileVersion: 6.2.17763.1075
+C:\Windows\SYSTEM32\d3d10warp.dll:d3d10warp.dll (00007FFBF8D50000), size: 7581696 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d10warp.dll', fileVersion: 6.2.17763.1432
+C:\Windows\System32\TextInputFramework.dll:TextInputFramework.dll (00007FFBFC100000), size: 602112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\TextInputFramework.dll', fileVersion: 6.2.17763.2090
+C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFC012C0000), size: 663552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFBE5D20000), size: 458752 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.2.17763.1697
+C:\Windows\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFBFF740000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DEVOBJ.dll', fileVersion: 6.2.17763.2145
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFBFE7C0000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 6.2.17763.1
+C:\Windows\System32\SETUPAPI.DLL:SETUPAPI.DLL (00007FFC013D0000), size: 4677632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SETUPAPI.DLL', fileVersion: 6.2.17763.404
+C:\Windows\System32\bcrypt.dll:bcrypt.dll (00007FFC00D60000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\bcrypt.dll', fileVersion: 6.2.17763.2090
+C:\Windows\System32\WINTRUST.dll:WINTRUST.dll (00007FFC000F0000), size: 364544 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WINTRUST.dll', fileVersion: 6.2.17763.2183
+C:\Windows\SYSTEM32\WINSTA.dll:WINSTA.dll (00007FFBFF9F0000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINSTA.dll', fileVersion: 6.2.17763.771
+C:\Windows\system32\mswsock.dll:mswsock.dll (00007FFBFF340000), size: 421888 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\mswsock.dll', fileVersion: 6.2.17763.1192
+C:\Windows\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFBFF0A0000), size: 811008 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DNSAPI.dll', fileVersion: 6.2.17763.1971
+C:\Windows\System32\NSI.dll:NSI.dll (00007FFC018F0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\NSI.dll', fileVersion: 6.2.17763.1554
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFBF6460000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\rasadhlp.dll', fileVersion: 6.2.17763.1
+C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFBF7C20000), size: 495616 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\fwpuclnt.dll', fileVersion: 6.2.17763.2090
+C:\Users\Hrd.yz\Downloads\teoteo.dll:teoteo.dll (0000000180000000), size: 2441216 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Users\Hrd.yz\Downloads\teoteo.dll', fileVersion: 1.3.3.0
+C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFBE9900000), size: 577536 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSVCP140.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\WININET.dll:WININET.dll (00007FFBE5170000), size: 5115904 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WININET.dll', fileVersion: 11.0.17763.2145
+C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFBEA600000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFBE9A20000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.29.30133.0
+C:\Windows\SYSTEM32\xinput1_4.dll:xinput1_4.dll (00007FFBE9880000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\xinput1_4.dll', fileVersion: 6.2.17763.1
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFBF3120000), size: 2019328 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 6.2.17763.1999
+C:\Windows\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FFBFFA80000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SspiCli.dll', fileVersion: 6.2.17763.1490
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF6409208B5)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF6409208B5)
+00007FF6409208B5 (Growtopia): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF64091EF6A)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF64091EF6A)
+00007FF64091EF6A (Growtopia): (filename not available): (function-name not available)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF640E30DB6)
+00007FF640E30DB6 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF640E2C310)
+00007FF640E2C310 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF640E1E4F2)
+00007FF640E1E4F2 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF640DF4EC3)
+00007FF640DF4EC3 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFBFFCA7B6C)
+00007FFBFFCA7B6C (KERNELBASE): (filename not available): UnhandledExceptionFilter
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFC03C08440)
+00007FFC03C08440 (ntdll): (filename not available): memset
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFC03BEFDD6)
+00007FFC03BEFDD6 (ntdll): (filename not available): _C_specific_handler
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFC03C04A2F)
+00007FFC03C04A2F (ntdll): (filename not available): _chkstk
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFC03B64CEF)
+00007FFC03B64CEF (ntdll): (filename not available): RtlWalkFrameChain
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFC03B68AE6)
+00007FFC03B68AE6 (ntdll): (filename not available): RtlRaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFBFFC59329)
+00007FFBFFC59329 (KERNELBASE): (filename not available): RaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFBE9A26480)
+00007FFBE9A26480 (VCRUNTIME140): (filename not available): CxxThrowException
 ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00000001800015CF)
 ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00000001800015CF)
-00000001800015CF (252): (filename not available): (function-name not available)
+00000001800015CF (teoteo): (filename not available): (function-name not available)
 ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00000001800D2DF3)
 ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00000001800D2DF3)
-00000001800D2DF3 (252): (filename not available): (function-name not available)
+00000001800D2DF3 (teoteo): (filename not available): (function-name not available)
 ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 000000018001DF27)
 ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000000018001DF27)
-000000018001DF27 (252): (filename not available): (function-name not available)
+000000018001DF27 (teoteo): (filename not available): (function-name not available)
 ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 000000018001F283)
 ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000000018001F283)
-000000018001F283 (252): (filename not available): (function-name not available)
+000000018001F283 (teoteo): (filename not available): (function-name not available)
 ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00000001800CF9D7)
 ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00000001800CF9D7)
-00000001800CF9D7 (252): (filename not available): (function-name not available)
+00000001800CF9D7 (teoteo): (filename not available): (function-name not available)
 ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 0000000180021D44)
 ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 0000000180021D44)
-0000000180021D44 (252): (filename not available): (function-name not available)
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613F7FE3C)
-00007FF613F7FE3C (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613F71FE3)
-00007FF613F71FE3 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF613F720B5)
-00007FF613F720B5 (Growtopia): (filename not available): mosquitto_will_set
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFE87974)
-00007FFCAFE87974 (KERNEL32): (filename not available): BaseThreadInitThunk
-ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFCAFFBA2F1)
-00007FFCAFFBA2F1 (ntdll): (filename not available): RtlUserThreadStart
+0000000180021D44 (teoteo): (filename not available): (function-name not available)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF640D9513C)
+00007FF640D9513C (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF640D87253)
+00007FF640D87253 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FF640D87325)
+00007FF640D87325 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFC01217974)
+00007FFC01217974 (KERNEL32): (filename not available): BaseThreadInitThunk
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00007FFC03BBA2F1)
+00007FFC03BBA2F1 (ntdll): (filename not available): RtlUserThreadStart
+Caught signal 22 (SIGABRT)
+Stack trace of crash:
+SymInit: Symbol-SearchPath: '.;C:\Users\Jusmu\AppData\Local\Growtopia;C:\Users\Jusmu\AppData\Local\Growtopia;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'Jusmu'
+OS-Version: 6.2.9200 () 0x190-0x3
+C:\Users\Jusmu\AppData\Local\Growtopia\Growtopia.exe:Growtopia.exe (000007F6ABDC0000), size: 13471744 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Jusmu\AppData\Local\Growtopia\Growtopia.exe'
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (000007FB9EED0000), size: 1589248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 6.2.9200.23485
+C:\Windows\system32\KERNEL32.DLL:KERNEL32.DLL (000007FB9ED90000), size: 1204224 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\KERNEL32.DLL', fileVersion: 6.2.9200.23402
+C:\Windows\system32\KERNELBASE.dll:KERNELBASE.dll (000007FB9BFC0000), size: 819200 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\KERNELBASE.dll', fileVersion: 6.2.9200.23376
+C:\Windows\system32\WS2_32.dll:WS2_32.dll (000007FB9E8B0000), size: 360448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WS2_32.dll', fileVersion: 6.2.9200.21858
+C:\Windows\SYSTEM32\DINPUT8.dll:DINPUT8.dll (000007FB963D0000), size: 245760 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DINPUT8.dll', fileVersion: 6.2.9200.16384
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (000007FB94450000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 6.2.9200.16645
+C:\Users\Jusmu\AppData\Local\Growtopia\fmod64.dll:fmod64.dll (000007FB85DB0000), size: 2043904 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Jusmu\AppData\Local\Growtopia\fmod64.dll', fileVersion: 0.1.10.6
+C:\Windows\system32\USER32.dll:USER32.dll (000007FB9E910000), size: 1220608 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\USER32.dll', fileVersion: 6.2.9200.23409
+C:\Windows\system32\GDI32.dll:GDI32.dll (000007FB9CAB0000), size: 1298432 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\GDI32.dll', fileVersion: 6.2.9200.23489
+C:\Windows\system32\ADVAPI32.dll:ADVAPI32.dll (000007FB9CE20000), size: 856064 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ADVAPI32.dll', fileVersion: 6.2.9200.23380
+C:\Windows\system32\SHELL32.dll:SHELL32.dll (000007FB9D060000), size: 19824640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SHELL32.dll', fileVersion: 6.2.9200.23157
+C:\Windows\system32\ole32.dll:ole32.dll (000007FB9E630000), size: 1433600 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ole32.dll', fileVersion: 6.2.9200.23376
+C:\Windows\system32\OLEAUT32.dll:OLEAUT32.dll (000007FB9CC40000), size: 811008 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\OLEAUT32.dll', fileVersion: 6.2.9200.23346
+C:\Users\Jusmu\AppData\Local\Growtopia\SecureEngineSDK64.dll:SecureEngineSDK64.dll (0000000010000000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Jusmu\AppData\Local\Growtopia\SecureEngineSDK64.dll'
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (000007FB995B0000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 6.2.9200.16420
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (000007FB98BE0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 6.2.9200.16384
+C:\Windows\SYSTEM32\VCOMP140.DLL:VCOMP140.DLL (000007FB96240000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCOMP140.DLL', fileVersion: 14.29.30040.0
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (000007FB95440000), size: 1175552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 6.2.9200.16384
+C:\Windows\system32\urlmon.dll:urlmon.dll (000007FB9C0B0000), size: 1609728 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\urlmon.dll', fileVersion: 11.0.9600.20139
+C:\Windows\system32\RPCRT4.dll:RPCRT4.dll (000007FB9EA40000), size: 1019904 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\RPCRT4.dll', fileVersion: 6.2.9200.23489
+C:\Windows\system32\NSI.dll:NSI.dll (000007FB9CD10000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\NSI.dll', fileVersion: 6.2.9200.16384
+C:\Windows\system32\msvcrt.dll:msvcrt.dll (000007FB9CD20000), size: 675840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\msvcrt.dll', fileVersion: 7.0.9200.16384
+C:\Windows\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (000007FB943F0000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMMBASE.dll', fileVersion: 6.2.9200.16645
+C:\Windows\SYSTEM32\MSACM32.dll:MSACM32.dll (000007FB963A0000), size: 102400 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSACM32.dll', fileVersion: 6.2.9200.16384
+C:\Windows\SYSTEM32\sechost.dll:sechost.dll (000007FB9CDD0000), size: 294912 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\sechost.dll', fileVersion: 6.2.9200.23083
+C:\Windows\SYSTEM32\combase.dll:combase.dll (000007FB9CF00000), size: 1404928 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\combase.dll', fileVersion: 6.2.9200.23431
+C:\Windows\system32\SHLWAPI.dll:SHLWAPI.dll (000007FB9C8C0000), size: 327680 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SHLWAPI.dll', fileVersion: 6.2.9200.16384
+C:\Windows\SYSTEM32\WINNSI.DLL:WINNSI.DLL (000007FB99A00000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINNSI.DLL', fileVersion: 6.2.9200.16384
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (000007FB96210000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 6.2.9200.16384
+C:\Windows\SYSTEM32\DDRAW.dll:DDRAW.dll (000007FB85470000), size: 958464 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DDRAW.dll', fileVersion: 6.2.9200.16384
+C:\Windows\system32\NETAPI32.dll:NETAPI32.dll (000007FB9C090000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\NETAPI32.dll', fileVersion: 6.2.9200.16384
+C:\Windows\system32\iertutil.dll:iertutil.dll (000007FB9E350000), size: 2936832 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\iertutil.dll', fileVersion: 11.0.9600.20139
+C:\Windows\system32\WININET.dll:WININET.dll (000007FB9C240000), size: 4898816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WININET.dll', fileVersion: 11.0.9600.20139
+C:\Windows\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (000007FB9BD90000), size: 323584 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\cfgmgr32.dll', fileVersion: 6.2.9200.16384
+C:\Windows\system32\DEVOBJ.dll:DEVOBJ.dll (000007FB9BD60000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DEVOBJ.dll', fileVersion: 6.2.9200.16384
+C:\Windows\SYSTEM32\DCIMAN32.dll:DCIMAN32.dll (000007FB99450000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DCIMAN32.dll', fileVersion: 6.2.9200.23432
+C:\Windows\system32\netutils.dll:netutils.dll (000007FB9BC20000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\netutils.dll', fileVersion: 6.2.9200.16384
+C:\Windows\system32\srvcli.dll:srvcli.dll (000007FB9BBB0000), size: 147456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\srvcli.dll', fileVersion: 6.2.9200.16384
+C:\Windows\system32\wkscli.dll:wkscli.dll (000007FB9BBE0000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wkscli.dll', fileVersion: 6.2.9200.16384
+C:\Windows\system32\USERENV.dll:USERENV.dll (000007FB9BC50000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\USERENV.dll', fileVersion: 6.2.9200.23176
+C:\Windows\system32\profapi.dll:profapi.dll (000007FB9BC30000), size: 86016 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\system32\profapi.dll', fileVersion: 6.2.9200.16384
+C:\Windows\system32\IMM32.DLL:IMM32.DLL (000007FB9CC00000), size: 233472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\IMM32.DLL', fileVersion: 6.2.9200.16384
+C:\Windows\system32\MSCTF.dll:MSCTF.dll (000007FB9E790000), size: 1130496 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSCTF.dll', fileVersion: 6.2.9200.23060
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (000007FB9AB10000), size: 933888 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.2.9200.22858
+C:\Windows\SYSTEM32\SHCORE.dll:SHCORE.dll (000007FB99B10000), size: 507904 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SHCORE.dll', fileVersion: 6.2.9200.23376
+C:\Windows\SYSTEM32\dwmapi.dll:dwmapi.dll (000007FB98BB0000), size: 135168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dwmapi.dll', fileVersion: 6.2.9200.17044
+C:\Windows\SYSTEM32\d3d9.dll:d3d9.dll (000007FB98BF0000), size: 2097152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d9.dll', fileVersion: 6.2.9200.16384
+C:\Windows\SYSTEM32\d3d10warp.dll:d3d10warp.dll (000007FB99DD0000), size: 2240512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d10warp.dll', fileVersion: 6.2.9200.22593
+C:\Windows\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (000007FB9B960000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTBASE.dll', fileVersion: 6.2.9200.16384
+C:\Windows\SYSTEM32\bcryptPrimitives.dll:bcryptPrimitives.dll (000007FB9B900000), size: 376832 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\bcryptPrimitives.dll', fileVersion: 6.2.9200.21952
+C:\Windows\SYSTEM32\clbcatq.dll:clbcatq.dll (000007FB9EB40000), size: 614400 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\clbcatq.dll', fileVersion: 2001.12.10130.16384
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (000007FB9A320000), size: 401408 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 6.2.9200.16420
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (000007FB9AE70000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 6.2.9200.16384
+C:\Windows\system32\SETUPAPI.DLL:SETUPAPI.DLL (000007FB9C6F0000), size: 1900544 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SETUPAPI.DLL', fileVersion: 6.2.9200.16496
+C:\Windows\system32\WINTRUST.dll:WINTRUST.dll (000007FB9BC70000), size: 262144 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINTRUST.dll', fileVersion: 6.2.9200.23454
+C:\Windows\system32\CRYPT32.dll:CRYPT32.dll (000007FB9BDE0000), size: 1929216 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CRYPT32.dll', fileVersion: 6.2.9200.23246
+C:\Windows\system32\MSASN1.dll:MSASN1.dll (000007FB9BC00000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSASN1.dll', fileVersion: 6.2.9200.16384
+C:\Windows\SYSTEM32\WINSTA.dll:WINSTA.dll (000007FB9BA60000), size: 315392 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINSTA.dll', fileVersion: 6.2.9200.17048
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (000007FB99540000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntmarta.dll', fileVersion: 6.2.9200.16384
+C:\Users\Jusmu\Downloads\Teohook.dll:Teohook.dll (0000000180000000), size: 2441216 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Users\Jusmu\Downloads\Teohook.dll', fileVersion: 1.3.3.0
+C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (000007FB93AA0000), size: 577536 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSVCP140.dll', fileVersion: 14.29.30040.0
+C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (000007FB98350000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.29.30040.0
+C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (000007FB960E0000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.29.30040.0
+C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll:api-ms-win-crt-heap-l1-1-0.dll (000007FB98230000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-heap-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll:api-ms-win-crt-runtime-l1-1-0.dll (000007FB96390000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-runtime-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll:api-ms-win-crt-string-l1-1-0.dll (000007FB96150000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-string-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll:api-ms-win-crt-stdio-l1-1-0.dll (000007FB960D0000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-stdio-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll:api-ms-win-crt-convert-l1-1-0.dll (000007FB960C0000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-convert-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll:api-ms-win-crt-filesystem-l1-1-0.dll (000007FB960B0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-filesystem-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll:api-ms-win-crt-environment-l1-1-0.dll (000007FB960A0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-environment-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll:api-ms-win-crt-math-l1-1-0.dll (000007FB95A30000), size: 20480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-math-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll:api-ms-win-crt-time-l1-1-0.dll (000007FB95A20000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-time-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll:api-ms-win-crt-utility-l1-1-0.dll (000007FB95A10000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-utility-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll:api-ms-win-crt-locale-l1-1-0.dll (000007FB95A00000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\api-ms-win-crt-locale-l1-1-0.dll', fileVersion: 10.0.14393.2247
+C:\Windows\SYSTEM32\ucrtbase.DLL:ucrtbase.DLL (000007FB85370000), size: 999424 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ucrtbase.DLL', fileVersion: 10.0.14393.2990
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (000007FB85200000), size: 1454080 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 6.2.9200.16384
+C:\Windows\SYSTEM32\SspiCli.dll:SspiCli.dll (000007FB9B8D0000), size: 143360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SspiCli.dll', fileVersion: 6.2.9200.23376
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 000007F6AC043055)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007F6AC043055)
+000007F6AC043055 (Growtopia): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 000007F6AC04170A)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007F6AC04170A)
+000007F6AC04170A (Growtopia): (filename not available): (function-name not available)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007F6AC56D4A6)
+000007F6AC56D4A6 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007F6AC5654F8)
+000007F6AC5654F8 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007F6AC55ADD2)
+000007F6AC55ADD2 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007F6AC531753)
+000007F6AC531753 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007FB9C054DB0)
+000007FB9C054DB0 (KERNELBASE): (filename not available): UnhandledExceptionFilter
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007FB9EFBA6EA)
+000007FB9EFBA6EA (ntdll): (filename not available): memcpy
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007FB9EF9A646)
+000007FB9EF9A646 (ntdll): (filename not available): _C_specific_handler
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007FB9EFADD8D)
+000007FB9EFADD8D (ntdll): (filename not available): _chkstk
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007FB9EF674A4)
+000007FB9EF674A4 (ntdll): (filename not available): RtlLogStackBackTrace
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007FB9EF69665)
+000007FB9EF69665 (ntdll): (filename not available): RtlRaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007FB9C0550F3)
+000007FB9C0550F3 (KERNELBASE): (filename not available): RaiseException
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007FB960E6480)
+000007FB960E6480 (VCRUNTIME140): (filename not available): CxxThrowException
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00000001800015CF)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00000001800015CF)
+00000001800015CF (Teohook): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00000001800D2DF3)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00000001800D2DF3)
+00000001800D2DF3 (Teohook): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 000000018001DF27)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000000018001DF27)
+000000018001DF27 (Teohook): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 000000018001F283)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000000018001F283)
+000000018001F283 (Teohook): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00000001800CF9D7)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 00000001800CF9D7)
+00000001800CF9D7 (Teohook): (filename not available): (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 0000000180021D44)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 0000000180021D44)
+0000000180021D44 (Teohook): (filename not available): (function-name not available)
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007F6AC4D1A4C)
+000007F6AC4D1A4C (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007F6AC4C3A13)
+000007F6AC4C3A13 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007F6AC4C3AE5)
+000007F6AC4C3AE5 (Growtopia): (filename not available): mosquitto_will_set
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007FB9EE26545)
+000007FB9EE26545 (KERNEL32): (filename not available): BaseThreadInitThunk
+ERROR: SymGetLineFromAddr64, GetLastError: 487 (Address: 000007FB9EEFDCB5)
+000007FB9EEFDCB5 (ntdll): (filename not available): RtlUserThreadStart

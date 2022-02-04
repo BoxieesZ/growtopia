@@ -34,8 +34,10 @@ Couldn't load surface game/gui_box_upwhite.rttex
 ResourceManager::GetSurfaceResource: Unable to load game/gui_box_upwhite.rttex
 Couldn't load surface interface/large/game_title.rttex
 ResourceManager::GetSurfaceResource: Unable to load interface/large/game_title.rttex
+Warning: Not going to save variant savedVideoMode because it was never actually set a value
 Warning: Not going to save variant screenY because it was never actually set a value
 Warning: Not going to save variant screenX because it was never actually set a value
+Warning: Not going to save variant savedVideoMode because it was never actually set a value
 Warning: Not going to save variant screenY because it was never actually set a value
 Warning: Not going to save variant screenX because it was never actually set a value
 FMOD error! (18) File not found.
@@ -51,10 +53,47 @@ FMOD error! (31) An invalid parameter was passed to this function.
 FMOD error! (31) An invalid parameter was passed to this function.
 
 FMOD error! (31) An invalid parameter was passed to this function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Finger 0 is down, sending fake release
 
 App shutting down from getting the X clicked
+Warning: Not going to save variant savedVideoMode because it was never actually set a value
 Warning: Not going to save variant screenY because it was never actually set a value
 Warning: Not going to save variant screenX because it was never actually set a value
+Warning: Not going to save variant savedVideoMode because it was never actually set a value
 Warning: Not going to save variant screenY because it was never actually set a value
 Warning: Not going to save variant screenX because it was never actually set a value
 KillCommunityHubMenu() dialog not active
